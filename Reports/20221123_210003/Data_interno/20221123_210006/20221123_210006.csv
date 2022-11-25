@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data_interno,,,,2022-11-23 21:01:35,2022-11-23 21:01:37,"2,524s",FAILED
+,,,,,,,
+Test Cases/Drive_excel/Drive_excel,,,,2022-11-23 21:01:35,2022-11-23 21:01:37,"1,668s",FAILED
+"openBrowser("""")",,,,2022-11-23 21:01:36,2022-11-23 21:01:37,"0,858s",FAILED
+,,,,,,,
+Test Cases/Drive_excel/Drive_excel,,,,2022-11-23 21:01:37,2022-11-23 21:01:37,"0,068s",FAILED
+"openBrowser("""")",,,,2022-11-23 21:01:37,2022-11-23 21:01:37,"0,043s",FAILED

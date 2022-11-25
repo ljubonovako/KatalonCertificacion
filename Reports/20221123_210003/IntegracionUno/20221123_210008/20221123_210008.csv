@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IntegracionUno,,,,2022-11-23 21:02:30,2022-11-23 21:02:33,"2,562s",FAILED
+,,,,,,,
+Test Cases/BUCLES/Reto_For,,,,2022-11-23 21:02:31,2022-11-23 21:02:32,"1,257s",FAILED
+"openBrowser("""")",,,,2022-11-23 21:02:31,2022-11-23 21:02:32,"0,567s",FAILED
+,,,,,,,
+Test Cases/BUCLES/Reto_while,,,,2022-11-23 21:02:32,2022-11-23 21:02:33,"0,815s",FAILED
+"openBrowser("""")",,,,2022-11-23 21:02:33,2022-11-23 21:02:33,"0,017s",FAILED

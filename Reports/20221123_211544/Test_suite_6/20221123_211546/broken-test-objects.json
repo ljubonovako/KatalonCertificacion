@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Validar_campo/Page_Selenium Easy Demo - Simple Form to Au_3f5468/a_No, thanks",
+      "brokenLocator": "//div[@id\u003d\u0027at-cv-lightbox-button-holder\u0027]/a[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20221123_211544/Test_suite_6/20221123_211546/Object Repository/Validar_campo/Page_Selenium Easy Demo - Simple Form to Au_3f5468/a_No, thanks_position.png"
+    }
+  ]
+}

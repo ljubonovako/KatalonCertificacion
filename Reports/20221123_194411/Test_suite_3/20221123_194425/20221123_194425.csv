@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_suite_3,Chrome 107.0.0.0,,,2022-11-23 19:55:23,2022-11-23 19:56:41,"1m - 18,043s",FAILED
+,,,,,,,
+Test Cases/Mouse_double_click/Test_1,Chrome 107.0.0.0,,,2022-11-23 19:55:23,2022-11-23 19:55:39,"15,451s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-23 19:55:24,2022-11-23 19:55:28,"3,644s",PASSED
+"navigateToUrl(""https://fanaticalhardware.com/contador-de-clicks"")",Chrome 107.0.0.0,,,2022-11-23 19:55:28,2022-11-23 19:55:35,"7,523s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-23 19:55:35,2022-11-23 19:55:35,"0,195s",PASSED
+waitForPageLoad(30),Chrome 107.0.0.0,,,2022-11-23 19:55:35,2022-11-23 19:55:36,"0,469s",PASSED
+"scrollToElement(findTestObject(""Double_click/button""), 0)",Chrome 107.0.0.0,,,2022-11-23 19:55:36,2022-11-23 19:55:37,"0,903s",PASSED
+"doubleClick(findTestObject(""Double_click/button""))",Chrome 107.0.0.0,,,2022-11-23 19:55:37,2022-11-23 19:55:37,"0,746s",PASSED
+"verifyTextPresent(""2"", false)",Chrome 107.0.0.0,,,2022-11-23 19:55:37,2022-11-23 19:55:38,"0,596s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-23 19:55:38,2022-11-23 19:55:39,"0,717s",PASSED
+,,,,,,,
+Test Cases/Mouse_over/Mouse_over,Chrome 107.0.0.0,,,2022-11-23 19:55:39,2022-11-23 19:55:51,"12,079s",FAILED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-23 19:55:39,2022-11-23 19:55:41,"1,421s",PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 107.0.0.0,,,2022-11-23 19:55:41,2022-11-23 19:55:42,"1,165s",PASSED
+waitForPageLoad(40),Chrome 107.0.0.0,,,2022-11-23 19:55:42,2022-11-23 19:55:42,"0,035s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-23 19:55:42,2022-11-23 19:55:42,"0,155s",PASSED
+"mouseOver(findTestObject(""Mouse_over/Woman""))",Chrome 107.0.0.0,,,2022-11-23 19:55:42,2022-11-23 19:55:51,"8,770s",FAILED
+,,,,,,,
+Test Cases/Mouse_over/Mouse_over2,Chrome 107.0.0.0,,,2022-11-23 19:55:51,2022-11-23 19:56:03,"12,288s",FAILED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-23 19:55:51,2022-11-23 19:55:53,"2,095s",PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 107.0.0.0,,,2022-11-23 19:55:53,2022-11-23 19:55:54,"1,036s",PASSED
+waitForPageLoad(40),Chrome 107.0.0.0,,,2022-11-23 19:55:54,2022-11-23 19:55:55,"0,032s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-23 19:55:55,2022-11-23 19:55:55,"0,153s",PASSED
+"mouseOver(findTestObject(""Mouse_over/Woman""))",Chrome 107.0.0.0,,,2022-11-23 19:55:55,2022-11-23 19:56:03,"8,460s",FAILED
+,,,,,,,
+Test Cases/Navegador/Navegador,Chrome 107.0.0.0,,,2022-11-23 19:56:03,2022-11-23 19:56:18,"14,873s",PASSED
+"openBrowser(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-23 19:56:04,2022-11-23 19:56:17,"13,370s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-23 19:56:17,2022-11-23 19:56:17,"0,143s",PASSED
+page_url = getUrl(),Chrome 107.0.0.0,,,2022-11-23 19:56:17,2022-11-23 19:56:17,"0,026s",PASSED
+print(page_url),Chrome 107.0.0.0,,,2022-11-23 19:56:17,2022-11-23 19:56:17,"0,006s",PASSED
+Titulo = getWindowTitle(),Chrome 107.0.0.0,,,2022-11-23 19:56:17,2022-11-23 19:56:17,"0,029s",PASSED
+"print(""titiulo de la pagina"" + Titulo)",Chrome 107.0.0.0,,,2022-11-23 19:56:17,2022-11-23 19:56:17,"0,000s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-23 19:56:17,2022-11-23 19:56:18,"0,679s",PASSED
+,,,,,,,
+Test Cases/Objecto_xpath/Caso_xpath,Chrome 107.0.0.0,,,2022-11-23 19:56:18,2022-11-23 19:56:41,"22,791s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-23 19:56:19,2022-11-23 19:56:20,"1,488s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-23 19:56:20,2022-11-23 19:56:35,"14,998s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-23 19:56:35,2022-11-23 19:56:35,"0,148s",PASSED
+"setText(findTestObject(""Objeto_xpath/Campo_nombre""), ""Ljubo"")",Chrome 107.0.0.0,,,2022-11-23 19:56:35,2022-11-23 19:56:36,"1,197s",PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-23 19:56:36,2022-11-23 19:56:39,"3,059s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-23 19:56:39,2022-11-23 19:56:41,"1,412s",PASSED

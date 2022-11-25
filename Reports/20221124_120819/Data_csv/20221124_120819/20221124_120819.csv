@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data_csv,Chrome 107.0.0.0,,,2022-11-24 12:08:33,2022-11-24 12:10:00,"1m - 26,625s",PASSED
+,,,,,,,
+Test Cases/Drive_excel/Drive_excel,Chrome 107.0.0.0,,,2022-11-24 12:08:34,2022-11-24 12:09:13,"39,037s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-24 12:08:34,2022-11-24 12:08:41,"7,080s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 107.0.0.0,,,2022-11-24 12:08:41,2022-11-24 12:09:04,"22,873s",PASSED
+waitForPageLoad(40),Chrome 107.0.0.0,,,2022-11-24 12:09:04,2022-11-24 12:09:05,"0,303s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-24 12:09:05,2022-11-24 12:09:05,"0,292s",PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 107.0.0.0,,,2022-11-24 12:09:05,2022-11-24 12:09:07,"1,964s",PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 107.0.0.0,,,2022-11-24 12:09:07,2022-11-24 12:09:08,"0,986s",PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 107.0.0.0,,,2022-11-24 12:09:08,2022-11-24 12:09:09,"1,144s",PASSED
+delay(2),Chrome 107.0.0.0,,,2022-11-24 12:09:09,2022-11-24 12:09:11,"2,099s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-24 12:09:11,2022-11-24 12:09:13,"1,573s",PASSED
+,,,,,,,
+Test Cases/Drive_excel/Drive_excel,Chrome 107.0.0.0,,,2022-11-24 12:09:13,2022-11-24 12:09:36,"23,090s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-24 12:09:13,2022-11-24 12:09:14,"1,463s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 107.0.0.0,,,2022-11-24 12:09:14,2022-11-24 12:09:28,"13,724s",PASSED
+waitForPageLoad(40),Chrome 107.0.0.0,,,2022-11-24 12:09:28,2022-11-24 12:09:28,"0,024s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-24 12:09:28,2022-11-24 12:09:28,"0,179s",PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 107.0.0.0,,,2022-11-24 12:09:28,2022-11-24 12:09:30,"2,163s",PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 107.0.0.0,,,2022-11-24 12:09:30,2022-11-24 12:09:32,"1,450s",PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 107.0.0.0,,,2022-11-24 12:09:32,2022-11-24 12:09:33,"0,853s",PASSED
+delay(2),Chrome 107.0.0.0,,,2022-11-24 12:09:33,2022-11-24 12:09:35,"2,018s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-24 12:09:35,2022-11-24 12:09:36,"1,194s",PASSED
+,,,,,,,
+Test Cases/Drive_excel/Drive_excel,Chrome 107.0.0.0,,,2022-11-24 12:09:36,2022-11-24 12:10:00,"23,546s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-24 12:09:36,2022-11-24 12:09:37,"1,381s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 107.0.0.0,,,2022-11-24 12:09:37,2022-11-24 12:09:53,"15,169s",PASSED
+waitForPageLoad(40),Chrome 107.0.0.0,,,2022-11-24 12:09:53,2022-11-24 12:09:53,"0,030s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-24 12:09:53,2022-11-24 12:09:53,"0,149s",PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 107.0.0.0,,,2022-11-24 12:09:53,2022-11-24 12:09:55,"2,093s",PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 107.0.0.0,,,2022-11-24 12:09:55,2022-11-24 12:09:56,"1,167s",PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 107.0.0.0,,,2022-11-24 12:09:56,2022-11-24 12:09:57,"0,788s",PASSED
+delay(2),Chrome 107.0.0.0,,,2022-11-24 12:09:57,2022-11-24 12:09:59,"2,018s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-24 12:09:59,2022-11-24 12:10:00,"0,712s",PASSED

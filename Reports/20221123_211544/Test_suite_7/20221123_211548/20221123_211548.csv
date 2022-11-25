@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_suite_7,Windows - Chrome 103.0.5060.53,,,2022-11-23 21:23:21,2022-11-23 21:32:22,"9m - 1,160s",ERROR
+,,,,,,,
+Test Cases/Test_script/Test_por_script,Windows - Chrome 103.0.5060.53,,,2022-11-23 21:23:21,2022-11-23 21:24:53,"1m - 31,523s",PASSED
+"openBrowser("""")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:23:22,2022-11-23 21:24:23,"1m - 0,645s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:24:23,2022-11-23 21:24:26,"3,486s",PASSED
+maximizeWindow(),Windows - Chrome 103.0.5060.53,,,2022-11-23 21:24:26,2022-11-23 21:24:27,"0,726s",PASSED
+"setText(findTestObject(""Object Repository/Script/Page_ToolsQA/input_Full Name_userName""), ""Ljubo"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:24:27,2022-11-23 21:24:33,"6,365s",PASSED
+"setText(findTestObject(""Object Repository/Script/Page_ToolsQA/input_Email_userEmail""), ""Ljubo@gmail.com"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:24:33,2022-11-23 21:24:38,"4,767s",PASSED
+"setText(findTestObject(""Object Repository/Script/Page_ToolsQA/textarea_Current Address_currentAddress""), ""Dirección uno"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:24:38,2022-11-23 21:24:42,"4,093s",PASSED
+"setText(findTestObject(""Object Repository/Script/Page_ToolsQA/textarea_Permanent Address_permanentAddress""), ""Dirección dos"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:24:42,2022-11-23 21:24:47,"5,040s",PASSED
+"scrollToPosition(0, 140)",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:24:47,2022-11-23 21:24:48,"0,474s",PASSED
+"click(findTestObject(""Object Repository/Script/Page_ToolsQA/button_Submit""))",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:24:48,2022-11-23 21:24:51,"3,719s",PASSED
+closeBrowser(),Windows - Chrome 103.0.5060.53,,,2022-11-23 21:24:51,2022-11-23 21:24:53,"1,511s",PASSED
+,,,,,,,
+Test Cases/Validar_calculo/Validar_calculo,Windows - Chrome 103.0.5060.53,,,2022-11-23 21:24:53,2022-11-23 21:26:30,"1m - 37,103s",FAILED
+"openBrowser("""")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:24:53,2022-11-23 21:25:36,"42,206s",PASSED
+"navigateToUrl(""https://www.seleniumeasy.com/test/basic-first-form-demo.html"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:25:36,2022-11-23 21:25:38,"2,397s",PASSED
+maximizeWindow(),Windows - Chrome 103.0.5060.53,,,2022-11-23 21:25:38,2022-11-23 21:25:39,"1,308s",PASSED
+"waitForElementClickable(findTestObject(""Validar_campo/Page_Selenium Easy Demo - Simple Form to Au_3f5468/a_No, thanks""), 3)",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:25:39,2022-11-23 21:25:47,"7,833s",PASSED
+"click(findTestObject(""Object Repository/Validar_campo/Page_Selenium Easy Demo - Simple Form to Au_3f5468/a_No, thanks""))",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:25:47,2022-11-23 21:25:59,"11,688s",PASSED
+"setText(findTestObject(""Object Repository/Validar_campo/Page_Selenium Easy Demo - Simple Form to Au_3f5468/input_Enter a_sum1""), ""5"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:25:59,2022-11-23 21:26:30,"31,173s",FAILED
+,,,,,,,
+Test Cases/Variables/Variables,Windows - Chrome 103.0.5060.53,,,2022-11-23 21:26:30,2022-11-23 21:28:35,"2m - 5,293s",PASSED
+"openBrowser("""")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:26:30,2022-11-23 21:27:24,"53,835s",PASSED
+"navigateToUrl(""https://demoqa.com/webtables"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:27:24,2022-11-23 21:27:29,"4,965s",PASSED
+"click(findTestObject(""Object Repository/Variables/Page_ToolsQA/button_Add""))",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:27:29,2022-11-23 21:27:33,"3,484s",PASSED
+"setText(findTestObject(""Object Repository/Variables/Page_ToolsQA/input_First Name_firstName""), ""Juan"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:27:33,2022-11-23 21:27:41,"8,597s",PASSED
+"click(findTestObject(""Object Repository/Variables/Page_ToolsQA/input_Last Name_lastName""))",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:27:41,2022-11-23 21:27:44,"3,056s",PASSED
+"setText(findTestObject(""Object Repository/Variables/Page_ToolsQA/input_Last Name_lastName""), ""Perez"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:27:44,2022-11-23 21:27:48,"3,988s",PASSED
+"setText(findTestObject(""Object Repository/Variables/Page_ToolsQA/input_Email_userEmail""), ""juan@gmail.com"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:27:48,2022-11-23 21:27:53,"4,244s",PASSED
+"setText(findTestObject(""Object Repository/Variables/Page_ToolsQA/input_Age_age""), ""22"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:27:53,2022-11-23 21:28:01,"8,344s",PASSED
+"setText(findTestObject(""Object Repository/Variables/Page_ToolsQA/input_Salary_salary""), ""35000"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:28:01,2022-11-23 21:28:06,"5,521s",PASSED
+"setText(findTestObject(""Object Repository/Variables/Page_ToolsQA/input_Department_department""), ""Informatica"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:28:06,2022-11-23 21:28:12,"5,525s",PASSED
+"rightClick(findTestObject(""Object Repository/Variables/Page_ToolsQA/input_Department_department""))",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:28:12,2022-11-23 21:28:15,"3,189s",PASSED
+"click(findTestObject(""Object Repository/Variables/Page_ToolsQA/div_Submit""))",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:28:15,2022-11-23 21:28:22,"7,029s",PASSED
+"setText(findTestObject(""Object Repository/Variables/Page_ToolsQA/input_Department_department""), ""Informática"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:28:22,2022-11-23 21:28:29,"6,711s",PASSED
+"click(findTestObject(""Object Repository/Variables/Page_ToolsQA/div_Submit""))",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:28:29,2022-11-23 21:28:31,"2,080s",PASSED
+"click(findTestObject(""Object Repository/Variables/Page_ToolsQA/button_Submit""))",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:28:31,2022-11-23 21:28:34,"2,696s",PASSED
+closeBrowser(),Windows - Chrome 103.0.5060.53,,,2022-11-23 21:28:34,2022-11-23 21:28:35,"1,544s",PASSED
+,,,,,,,
+Test Cases/Variables_2/Variables_2,Windows - Chrome 103.0.5060.53,,,2022-11-23 21:28:35,2022-11-23 21:29:47,"1m - 12,098s",ERROR
+"openBrowser("""")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:28:36,2022-11-23 21:29:21,"45,277s",PASSED
+"navigateToUrl(""https://demoqa.com/webtables"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:29:21,2022-11-23 21:29:24,"3,066s",PASSED
+maximizeWindow(),Windows - Chrome 103.0.5060.53,,,2022-11-23 21:29:24,2022-11-23 21:29:27,"2,157s",PASSED
+"click(findTestObject(""Object Repository/Variables_2/Page_ToolsQA/button_Add""))",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:29:27,2022-11-23 21:29:30,"3,474s",PASSED
+"setText(findTestObject(""Object Repository/Variables_2/Page_ToolsQA/input_First Name_firstName""), nombres)",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:29:30,2022-11-23 21:29:35,"5,436s",PASSED
+"setText(findTestObject(""Object Repository/Variables_2/Page_ToolsQA/input_Last Name_lastName""), Apellido)",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:29:35,2022-11-23 21:29:42,"6,204s",PASSED
+"setText(findTestObject(""Object Repository/Variables_2/Page_ToolsQA/input_Email_userEmail""), ""juan@gmail.com"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:29:42,2022-11-23 21:29:47,"5,475s",PASSED
+"setText(findTestObject(""Object Repository/Variables_2/Page_ToolsQA/input_Age_age""), Edad)",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:29:47,2022-11-23 21:29:47,"0,167s",ERROR
+,,,,,,,
+Test Cases/Wait/Wait,Windows - Chrome 103.0.5060.53,,,2022-11-23 21:29:47,2022-11-23 21:32:22,"2m - 34,567s",FAILED
+"openBrowser("""")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:29:48,2022-11-23 21:30:35,"46,683s",PASSED
+"navigateToUrl(""https://www.seleniumeasy.com/test/basic-first-form-demo.html"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:30:35,2022-11-23 21:30:38,"3,163s",PASSED
+maximizeWindow(),Windows - Chrome 103.0.5060.53,,,2022-11-23 21:30:38,2022-11-23 21:30:39,"1,325s",PASSED
+waitForPageLoad(Page_load),Windows - Chrome 103.0.5060.53,,,2022-11-23 21:30:39,2022-11-23 21:30:40,"0,566s",PASSED
+"waitForElementClickable(findTestObject(""Wait/Page_Selenium Easy Demo - Simple Form to Au_3f5468/a_No, thanks""), Wait_general)",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:30:40,2022-11-23 21:30:49,"9,756s",PASSED
+"click(findTestObject(""Object Repository/Wait/Page_Selenium Easy Demo - Simple Form to Au_3f5468/a_No, thanks""))",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:30:49,2022-11-23 21:30:59,"10,023s",PASSED
+"setText(findTestObject(""Object Repository/Wait/Page_Selenium Easy Demo - Simple Form to Au_3f5468/input_Enter message_user-message""), ""Bienvenidos a Katalon función Wait"")",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:30:59,2022-11-23 21:31:19,"19,731s",PASSED
+"waitForElementVisible(findTestObject(""Wait/Page_Selenium Easy Demo - Simple Form to Au_3f5468/button_Show Message""), Wait_general)",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:31:19,2022-11-23 21:31:47,"27,766s",PASSED
+"click(findTestObject(""Object Repository/Wait/Page_Selenium Easy Demo - Simple Form to Au_3f5468/button_Show Message""))",Windows - Chrome 103.0.5060.53,,,2022-11-23 21:31:47,2022-11-23 21:32:22,"34,959s",FAILED

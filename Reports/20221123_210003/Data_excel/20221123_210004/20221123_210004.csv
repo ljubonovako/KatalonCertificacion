@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data_excel,,,,2022-11-23 21:00:47,2022-11-23 21:00:50,"2,996s",FAILED
+,,,,,,,
+Test Cases/Drive_excel/Drive_excel,,,,2022-11-23 21:00:48,2022-11-23 21:00:49,"1,616s",FAILED
+"openBrowser("""")",,,,2022-11-23 21:00:48,2022-11-23 21:00:49,"0,889s",FAILED
+,,,,,,,
+Test Cases/Drive_excel/Drive_excel,,,,2022-11-23 21:00:49,2022-11-23 21:00:49,"0,109s",FAILED
+"openBrowser("""")",,,,2022-11-23 21:00:49,2022-11-23 21:00:49,"0,053s",FAILED
+,,,,,,,
+Test Cases/Drive_excel/Drive_excel,,,,2022-11-23 21:00:49,2022-11-23 21:00:50,"0,064s",FAILED
+"openBrowser("""")",,,,2022-11-23 21:00:50,2022-11-23 21:00:50,"0,034s",FAILED
+,,,,,,,
+Test Cases/Drive_excel/Drive_excel,,,,2022-11-23 21:00:50,2022-11-23 21:00:50,"0,065s",FAILED
+"openBrowser("""")",,,,2022-11-23 21:00:50,2022-11-23 21:00:50,"0,031s",FAILED
+,,,,,,,
+Test Cases/Drive_excel/Drive_excel,,,,2022-11-23 21:00:50,2022-11-23 21:00:50,"0,062s",FAILED
+"openBrowser("""")",,,,2022-11-23 21:00:50,2022-11-23 21:00:50,"0,034s",FAILED
