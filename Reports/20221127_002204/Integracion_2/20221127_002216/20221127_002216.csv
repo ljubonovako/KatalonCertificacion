@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integracion_2,Chrome 107.0.0.0,,,2022-11-27 00:22:23,2022-11-27 00:23:19,"55,283s",PASSED
+,,,,,,,
+Test Cases/BUCLES/Reto_while,Chrome 107.0.0.0,,,2022-11-27 00:22:24,2022-11-27 00:23:05,"41,389s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-27 00:22:25,2022-11-27 00:22:32,"6,868s",PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 107.0.0.0,,,2022-11-27 00:22:32,2022-11-27 00:22:33,"0,973s",PASSED
+Bandera = 0,Chrome 107.0.0.0,,,2022-11-27 00:22:33,2022-11-27 00:22:33,"0,001s",PASSED
+while (Bandera != 1),Chrome 107.0.0.0,,,2022-11-27 00:22:33,2022-11-27 00:23:05,"32,444s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_1,Chrome 107.0.0.0,,,2022-11-27 00:23:05,2022-11-27 00:23:05,"0,274s",PASSED
+if (num == 10),Chrome 107.0.0.0,,,2022-11-27 00:23:05,2022-11-27 00:23:05,"0,000s",PASSED
+else,Chrome 107.0.0.0,,,2022-11-27 00:23:05,2022-11-27 00:23:05,"0,001s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_2,Chrome 107.0.0.0,,,2022-11-27 00:23:05,2022-11-27 00:23:06,"0,239s",PASSED
+if (num == 5),Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,000s",PASSED
+if (num == 10),Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,003s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_3,Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,230s",PASSED
+"if (nombre == ""Juan"")",Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,001s",PASSED
+"if (nombre == ""JUan"")",Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,000s",PASSED
+"if (nombre == ""juan"")",Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,001s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_4,Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,265s",PASSED
+if (num <= 7),Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,002s",PASSED
+if (num >= 8),Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,001s",PASSED
+if (num != 5),Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,001s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_2,Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,024s",PASSED
+if (num == 5),Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,000s",PASSED
+if (num == 10),Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,002s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_1,Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,023s",PASSED
+if (num == 10),Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,001s",PASSED
+else,Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:06,"0,001s",PASSED
+,,,,,,,
+Test Cases/Google/google,Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:19,"12,380s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-27 00:23:06,2022-11-27 00:23:08,"2,042s",PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 107.0.0.0,,,2022-11-27 00:23:08,2022-11-27 00:23:09,"0,688s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-27 00:23:09,2022-11-27 00:23:09,"0,161s",PASSED
+waitForPageLoad(5),Chrome 107.0.0.0,,,2022-11-27 00:23:09,2022-11-27 00:23:09,"0,115s",PASSED
+"setText(findTestObject(""Google/Buscar""), ""ferr"")",Chrome 107.0.0.0,,,2022-11-27 00:23:09,2022-11-27 00:23:10,"0,851s",PASSED
+"waitForElementPresent(findTestObject(""Google/Ferrari""), 2)",Chrome 107.0.0.0,,,2022-11-27 00:23:10,2022-11-27 00:23:11,"0,630s",PASSED
+"click(findTestObject(""Google/Ferrari""))",Chrome 107.0.0.0,,,2022-11-27 00:23:11,2022-11-27 00:23:14,"3,511s",PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-27 00:23:14,2022-11-27 00:23:17,"3,032s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-27 00:23:17,2022-11-27 00:23:19,"1,131s",PASSED

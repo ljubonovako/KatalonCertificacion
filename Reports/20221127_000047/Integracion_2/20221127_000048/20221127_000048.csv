@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integracion_2,Windows - Chrome 103.0.5060.53,,,2022-11-27 00:00:58,2022-11-27 00:03:48,"2m - 50,561s",FAILED
+,,,,,,,
+Test Cases/BUCLES/Reto_while,Windows - Chrome 103.0.5060.53,,,2022-11-27 00:00:58,2022-11-27 00:02:42,"1m - 44,332s",PASSED
+"openBrowser("""")",Windows - Chrome 103.0.5060.53,,,2022-11-27 00:00:59,2022-11-27 00:01:50,"51,609s",PASSED
+"navigateToUrl(""https://www.google.com/"")",Windows - Chrome 103.0.5060.53,,,2022-11-27 00:01:50,2022-11-27 00:01:52,"1,742s",PASSED
+Bandera = 0,Windows - Chrome 103.0.5060.53,,,2022-11-27 00:01:52,2022-11-27 00:01:52,"0,006s",PASSED
+while (Bandera != 1),Windows - Chrome 103.0.5060.53,,,2022-11-27 00:01:52,2022-11-27 00:02:42,"50,528s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_1,Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:42,2022-11-27 00:02:43,"0,265s",PASSED
+if (num == 10),Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:43,2022-11-27 00:02:43,"0,001s",PASSED
+else,Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:43,2022-11-27 00:02:43,"0,001s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_2,Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:43,2022-11-27 00:02:43,"0,200s",PASSED
+if (num == 5),Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:43,2022-11-27 00:02:43,"0,000s",PASSED
+if (num == 10),Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:43,2022-11-27 00:02:43,"0,005s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_3,Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:43,2022-11-27 00:02:43,"0,246s",PASSED
+"if (nombre == ""Juan"")",Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:43,2022-11-27 00:02:43,"0,001s",PASSED
+"if (nombre == ""JUan"")",Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:43,2022-11-27 00:02:43,"0,001s",PASSED
+"if (nombre == ""juan"")",Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:43,2022-11-27 00:02:43,"0,004s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_4,Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:43,2022-11-27 00:02:43,"0,327s",PASSED
+if (num <= 7),Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:43,2022-11-27 00:02:43,"0,005s",PASSED
+if (num >= 8),Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:43,2022-11-27 00:02:43,"0,001s",PASSED
+if (num != 5),Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:43,2022-11-27 00:02:43,"0,000s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_2,Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:43,2022-11-27 00:02:44,"0,029s",PASSED
+if (num == 5),Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:44,2022-11-27 00:02:44,"0,001s",PASSED
+if (num == 10),Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:44,2022-11-27 00:02:44,"0,002s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_1,Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:44,2022-11-27 00:02:44,"0,045s",PASSED
+if (num == 10),Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:44,2022-11-27 00:02:44,"0,003s",PASSED
+else,Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:44,2022-11-27 00:02:44,"0,002s",PASSED
+,,,,,,,
+Test Cases/Google/google,Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:44,2022-11-27 00:03:48,"1m - 4,634s",FAILED
+"openBrowser("""")",Windows - Chrome 103.0.5060.53,,,2022-11-27 00:02:44,2022-11-27 00:03:35,"51,469s",PASSED
+"navigateToUrl(""https://www.google.com/"")",Windows - Chrome 103.0.5060.53,,,2022-11-27 00:03:35,2022-11-27 00:03:37,"1,237s",PASSED
+maximizeWindow(),Windows - Chrome 103.0.5060.53,,,2022-11-27 00:03:37,2022-11-27 00:03:37,"0,584s",PASSED
+waitForPageLoad(5),Windows - Chrome 103.0.5060.53,,,2022-11-27 00:03:37,2022-11-27 00:03:38,"0,718s",PASSED
+"setText(findTestObject(""Google/Buscar""), ""ferr"")",Windows - Chrome 103.0.5060.53,,,2022-11-27 00:03:38,2022-11-27 00:03:48,"10,329s",FAILED

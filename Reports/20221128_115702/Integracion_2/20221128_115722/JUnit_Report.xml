@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Integracion_2" time="46.326" tests="8" failures="0" errors="0">
+   <testsuite name="Integracion_2" tests="8" failures="0" errors="0" time="46.326" skipped="0" timestamp="2022-11-28 11:57:35" hostname="NTK2299$ - 192.168.0.13" id="Test Suites/Integracion_2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221128_115702\\Integracion_2\\20221128_115722"/>
+         <property name="logFiles" value="C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221128_115702\\Integracion_2\\20221128_115722\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="NTK2299$ - 192.168.0.13"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.13"/>
+         <property name="sessionId" value="ab2b2874f2a5b0b1d9cb9a7e667db0a8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BUCLES/Reto_while" time="28.381" classname="Test Cases/BUCLES/Reto_while" status="PASSED">
+         <system-out><![CDATA[2022-11-28 11:57:35 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_while: Test Cases/BUCLES/Reto_while
+
+2022-11-28 11:57:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-28 11:57:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-28 11:57:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-28 11:57:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-28 11:57:41 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-11-28 11:57:43 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-11-28 11:57:43 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-28 11:57:43 - [TEST_STEP][PASSED] - while (Bandera != 1): null
+
+2022-11-28 11:57:43 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-28 11:57:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+1' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 11:57:44 - [MESSAGE][PASSED] - Text '5+1' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 11:57:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 11:57:53 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 11:57:53 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '6'
+
+2022-11-28 11:57:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '6'
+
+2022-11-28 11:57:53 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2022-11-28 11:57:53 - [TEST_STEP][PASSED] - else: null
+
+2022-11-28 11:57:53 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-28 11:57:53 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2022-11-28 11:57:53 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-28 11:57:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+1' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 11:57:54 - [MESSAGE][PASSED] - Text '5+1' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 11:57:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 11:57:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 11:57:57 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '6'
+
+2022-11-28 11:57:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '6'
+
+2022-11-28 11:57:58 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2022-11-28 11:57:58 - [TEST_STEP][PASSED] - else: null
+
+2022-11-28 11:57:58 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-28 11:57:58 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2022-11-28 11:57:58 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-28 11:57:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+3' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 11:57:59 - [MESSAGE][PASSED] - Text '5+3' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 11:57:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 11:58:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 11:58:01 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '8'
+
+2022-11-28 11:58:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '8'
+
+2022-11-28 11:58:03 - [TEST_STEP][PASSED] - if (Resultado == "8"): Browser is closed
+
+2022-11-28 11:58:03 - [TEST_STEP][PASSED] - Bandera = 1: null
+
+2022-11-28 11:58:03 - [TEST_STEP][PASSED] - print("Listo termina"): null
+
+2022-11-28 11:58:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-28 11:58:04 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-28 11:58:04 - [TEST_STEP][PASSED] - print(Bandera + "------"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_1" time="0.538" classname="Test Cases/Condicionales_If/Test_1" status="PASSED">
+         <system-out><![CDATA[2022-11-28 11:58:04 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_1: Test Cases/Condicionales_If/Test_1
+
+2022-11-28 11:58:04 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-28 11:58:04 - [TEST_STEP][PASSED] - else: null
+
+2022-11-28 11:58:04 - [TEST_STEP][PASSED] - print("El numero no es un 10 es el numero:  " + num + "#####"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_2" time="0.181" classname="Test Cases/Condicionales_If/Test_2" status="PASSED">
+         <system-out><![CDATA[2022-11-28 11:58:04 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_2: Test Cases/Condicionales_If/Test_2
+
+2022-11-28 11:58:04 - [TEST_STEP][PASSED] - if (num == 5): null
+
+2022-11-28 11:58:04 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-28 11:58:04 - [TEST_STEP][PASSED] - println("El valor de la variables es un: 10"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_3" time="0.181" classname="Test Cases/Condicionales_If/Test_3" status="PASSED">
+         <system-out><![CDATA[2022-11-28 11:58:04 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_3: Test Cases/Condicionales_If/Test_3
+
+2022-11-28 11:58:04 - [TEST_STEP][PASSED] - if (nombre == "Juan"): null
+
+2022-11-28 11:58:04 - [TEST_STEP][PASSED] - if (nombre == "JUan"): null
+
+2022-11-28 11:58:04 - [TEST_STEP][PASSED] - if (nombre == "juan"): null
+
+2022-11-28 11:58:04 - [TEST_STEP][PASSED] - println("Tu nombre es juan"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_4" time="0.262" classname="Test Cases/Condicionales_If/Test_4" status="PASSED">
+         <system-out><![CDATA[2022-11-28 11:58:04 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_4: Test Cases/Condicionales_If/Test_4
+
+2022-11-28 11:58:05 - [TEST_STEP][PASSED] - if (num <= 7): null
+
+2022-11-28 11:58:05 - [TEST_STEP][PASSED] - println("El numero es menor ó igual que 5"): null
+
+2022-11-28 11:58:05 - [TEST_STEP][PASSED] - if (num >= 8): null
+
+2022-11-28 11:58:05 - [TEST_STEP][PASSED] - if (num != 5): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_2" time="0.023" classname="Test Cases/Condicionales_If/Test_2" status="PASSED">
+         <system-out><![CDATA[2022-11-28 11:58:05 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_2: Test Cases/Condicionales_If/Test_2
+
+2022-11-28 11:58:05 - [TEST_STEP][PASSED] - if (num == 5): null
+
+2022-11-28 11:58:05 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-28 11:58:05 - [TEST_STEP][PASSED] - println("El valor de la variables es un: 10"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_1" time="0.023" classname="Test Cases/Condicionales_If/Test_1" status="PASSED">
+         <system-out><![CDATA[2022-11-28 11:58:05 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_1: Test Cases/Condicionales_If/Test_1
+
+2022-11-28 11:58:05 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-28 11:58:05 - [TEST_STEP][PASSED] - else: null
+
+2022-11-28 11:58:05 - [TEST_STEP][PASSED] - print("El numero no es un 10 es el numero:  " + num + "#####"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Google/google" time="16.103" classname="Test Cases/Google/google" status="PASSED">
+         <system-out><![CDATA[2022-11-28 11:58:05 - [TEST_CASE][PASSED] - Test Cases/Google/google: Test Cases/Google/google
+
+2022-11-28 11:58:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-28 11:58:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-28 11:58:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-28 11:58:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-28 11:58:07 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-11-28 11:58:10 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-11-28 11:58:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-28 11:58:10 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-28 11:58:10 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-28 11:58:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-28 11:58:10 - [TEST_STEP][PASSED] - setText(findTestObject("Google/Buscar"), "ferr"): Text 'ferr' is set on object 'Object Repository/Google/Buscar'
+
+2022-11-28 11:58:11 - [MESSAGE][PASSED] - Text 'ferr' is set on object 'Object Repository/Google/Buscar'
+
+2022-11-28 11:58:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Google/Ferrari"), 2): Object 'Object Repository/Google/Ferrari' is present
+
+2022-11-28 11:58:12 - [MESSAGE][PASSED] - Object 'Object Repository/Google/Ferrari' is present
+
+2022-11-28 11:58:12 - [TEST_STEP][PASSED] - click(findTestObject("Google/Ferrari")): Object: 'Object Repository/Google/Ferrari' is clicked on
+
+2022-11-28 11:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Google/Ferrari' is clicked on
+
+2022-11-28 11:58:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-28 11:58:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-28 11:58:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-28 11:58:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-28 11:57:35 - [TEST_SUITE][PASSED] - Integracion_2: Test Cases/Google/google]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
