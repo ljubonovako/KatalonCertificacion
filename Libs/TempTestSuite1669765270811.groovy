@@ -14,8 +14,8 @@ import internal.GlobalVariable as GlobalVariable
 
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
-suiteProperties.put('id', 'Test Suites/testCLoud')
-suiteProperties.put('name', 'testCLoud')
+suiteProperties.put('id', 'Test Suites/windows')
+suiteProperties.put('name', 'windows')
 suiteProperties.put('description', '')
 suiteProperties.put('rerunTestFailImmediately', 'true')
 suiteProperties.put('retryCount', '3')
@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221129_130644\\testCLoud\\20221129_130644\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221129_204110\\windows\\20221129_204110\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/testCLoud', suiteProperties, new File("C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221129_130644\\testCLoud\\20221129_130644\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/windows', suiteProperties, new File("C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221129_204110\\windows\\20221129_204110\\testCaseBinding"))

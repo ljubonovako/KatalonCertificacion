@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+windows,,,,2022-11-29 20:47:14,2022-11-29 20:47:26,"11,605s",PASSED
+,,,,,,,
+Test Cases/Windows/notas,,,,2022-11-29 20:47:15,2022-11-29 20:47:26,"11,005s",PASSED
+"startApplicationWithTitle(""C:\Windows\System32\notepad.exe"", ""Test1"")",,,,2022-11-29 20:47:16,2022-11-29 20:47:18,"2,622s",PASSED
+"setText(findWindowsObject(""Object Repository/Windows/Edit""), ""Hola Mundo!"")",,,,2022-11-29 20:47:18,2022-11-29 20:47:20,"1,757s",PASSED
+closeApplication(),,,,2022-11-29 20:47:20,2022-11-29 20:47:25,"5,107s",PASSED
+"click(findWindowsObject(""Windows/Button(1)""))",,,,2022-11-29 20:47:25,2022-11-29 20:47:26,"0,699s",PASSED

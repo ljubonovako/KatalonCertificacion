@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+windows,,,,2022-11-29 20:39:24,2022-11-29 20:39:38,"13,463s",FAILED
+,,,,,,,
+Test Cases/Windows/notas,,,,2022-11-29 20:39:36,2022-11-29 20:39:38,"2,117s",FAILED
+"startApplicationWithTitle(""C:\Windows\System32\notepad.exe"", ""Test1"")",,,,2022-11-29 20:39:36,2022-11-29 20:39:38,"2,082s",FAILED

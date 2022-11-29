@@ -11,23 +11,8 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>Variables_Globales</profileName>
-            <requireConfigurationData>true</requireConfigurationData>
-            <runConfigurationData>
-               <entry>
-                  <key>testCloudEnvironment</key>
-                  <value>{
-  &quot;id&quot;: 87,
-  &quot;os&quot;: &quot;windows&quot;,
-  &quot;osDisplayName&quot;: &quot;Windows&quot;,
-  &quot;browserName&quot;: &quot;chrome&quot;,
-  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;103&quot;,
-  &quot;usingTunnel&quot;: false,
-  &quot;timeout&quot;: 15
-}</value>
-               </entry>
-            </runConfigurationData>
-            <runConfigurationId>TestCloud</runConfigurationId>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/testCLoud</testSuiteEntity>
@@ -36,23 +21,8 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>Variables_Globales</profileName>
-            <requireConfigurationData>true</requireConfigurationData>
-            <runConfigurationData>
-               <entry>
-                  <key>testCloudEnvironment</key>
-                  <value>{
-  &quot;id&quot;: 87,
-  &quot;os&quot;: &quot;windows&quot;,
-  &quot;osDisplayName&quot;: &quot;Windows&quot;,
-  &quot;browserName&quot;: &quot;chrome&quot;,
-  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;103&quot;,
-  &quot;usingTunnel&quot;: false,
-  &quot;timeout&quot;: 15
-}</value>
-               </entry>
-            </runConfigurationData>
-            <runConfigurationId>TestCloud</runConfigurationId>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/apitest</testSuiteEntity>
