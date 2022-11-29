@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>3cd205bb-902a-43f6-a97d-d58edeea6d0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mt-4 justify-content-end row</value>
+      <webElementGuid>61df54a5-d171-4276-9554-22ae91648393</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Submit</value>
+      <webElementGuid>2d38aa4e-ba75-4f64-bc7c-b27812607a78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;userForm&quot;)/div[@class=&quot;mt-4 justify-content-end row&quot;]</value>
+      <webElementGuid>2fefc20e-1bf6-4cb4-923c-28eb608f1883</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='userForm']/div[7]</value>
+      <webElementGuid>e3b106dd-b923-4579-b16c-d404fac56608</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Department'])[2]/following::div[2]</value>
+      <webElementGuid>bb14b496-f12e-4e3b-a9cd-30eef1af6ced</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Salary'])[2]/following::div[5]</value>
+      <webElementGuid>74425ade-94e2-4a93-8a8f-218f38902c86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,5 +78,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div[7]</value>
+      <webElementGuid>6ddbc337-f91b-41f9-b4de-94d257470b89</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

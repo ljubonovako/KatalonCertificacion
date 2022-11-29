@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>d84c6ba7-be48-44ce-9c12-ea70ce07241e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
+      <webElementGuid>be4f447b-4182-4966-b997-992ca7845a89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>pattern</name>
       <type>Main</type>
       <value>\d*</value>
+      <webElementGuid>2ab6a5ce-e8dd-468b-ab45-ca3fb52b5582</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>9b69ce75-4cb5-4e2a-98fa-e6c814a435ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>2</value>
+      <webElementGuid>f7c42ef2-2222-421b-803a-fc7e0ca7b2eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Age</value>
+      <webElementGuid>37aa909c-5581-438a-9fbb-bb25ed3fdfb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>838dcea6-6ab3-4150-ad0b-5dd9fce46e08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>id</name>
       <type>Main</type>
       <value>age</value>
+      <webElementGuid>0eaeb329-8d2c-4d3a-9dfd-442010d0bcf1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>class</name>
       <type>Main</type>
       <value> mr-sm-2 form-control</value>
+      <webElementGuid>0225dfaa-1ac0-4836-909b-031eb252fd8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;age&quot;)</value>
+      <webElementGuid>9627a260-1e1f-421d-9448-751aa61a2061</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='age']</value>
+      <webElementGuid>b0b9f1d7-9a69-443d-8af3-94a640a79172</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='age-wrapper']/div[2]/input</value>
+      <webElementGuid>f4a4df9c-7727-4f31-946e-ca6ff06b0e15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[2]/input</value>
+      <webElementGuid>6f857f33-2df1-4e3c-a12b-001b6b00738a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

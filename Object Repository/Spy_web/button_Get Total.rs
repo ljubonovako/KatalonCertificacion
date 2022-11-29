@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>ec3199bb-860c-4baf-95c7-5823c51822f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>54b03a6c-3115-415b-b50a-b9f955eefc1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>return total()</value>
+      <webElementGuid>550182db-5add-4d65-8016-b1fac1d34598</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-default</value>
+      <webElementGuid>b25c56d7-2767-4ac0-a047-58291e56673f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Get Total</value>
+      <webElementGuid>5fd1690c-fe98-450c-a0b7-ee842048b7e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gettotal&quot;)/button[@class=&quot;btn btn-default&quot;]</value>
+      <webElementGuid>83644810-c200-41d8-a996-23dbb30723e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>5b2bc36b-00ae-43b4-900e-d3f7f2135cf4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='gettotal']/button</value>
+      <webElementGuid>6db90886-ccd0-46db-a749-c768769d1d91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter b'])[1]/following::button[1]</value>
+      <webElementGuid>8eeaaef7-8c0c-4d84-bfcd-fbe3b73e7779</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a'])[1]/following::button[1]</value>
+      <webElementGuid>5c5236db-2925-4011-9e9f-44e24d4376b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total a + b ='])[1]/preceding::button[1]</value>
+      <webElementGuid>8510ed96-f000-4a06-83da-978514d3899f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutorials Menu'])[1]/preceding::button[1]</value>
+      <webElementGuid>b2934a18-d4b4-47fa-995f-08fcf5ffcb13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Get Total']/parent::*</value>
+      <webElementGuid>250777ee-cf50-4eba-8cbd-93f30ebe2734</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +126,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/form/button</value>
+      <webElementGuid>9eabd593-3031-483e-b9b6-2297ffe00119</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

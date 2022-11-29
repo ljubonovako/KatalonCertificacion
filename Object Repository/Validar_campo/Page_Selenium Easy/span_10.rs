@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>e1e2e0ab-7b85-45fb-90cb-f1e94e030ea7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>displayvalue</value>
+      <webElementGuid>6dc37718-6c26-4974-b53a-bbf42461b80e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>10</value>
+      <webElementGuid>807c9f4e-8bb4-4973-96b5-e19cb19571fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;displayvalue&quot;)</value>
+      <webElementGuid>54b997a4-9540-4d73-8e75-39cf780eb6fb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='displayvalue']</value>
+      <webElementGuid>54119d75-0e03-4ede-aba9-e3481b7d88da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='easycont']/div/div[2]/div[2]/div[2]/div/span</value>
+      <webElementGuid>6cb9c5e7-c9d5-4761-9990-d60d70ea6078</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total a + b ='])[1]/following::span[1]</value>
+      <webElementGuid>e85072a3-28eb-4956-9017-6be31c0e0ff1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Total'])[1]/following::span[1]</value>
+      <webElementGuid>73b2627e-d219-47c7-8b0e-7fd80ffeb1b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutorials Menu'])[1]/preceding::span[1]</value>
+      <webElementGuid>b5f9286c-97cf-4722-a9d1-cc7e2c372317</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Selenium Tutorials'])[1]/preceding::span[1]</value>
+      <webElementGuid>f3311378-8f5e-4259-a4bd-058bf0822269</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='10']/parent::*</value>
+      <webElementGuid>b1e53fa7-483e-416b-871a-96804248293e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +110,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/span</value>
+      <webElementGuid>916c06b3-b98f-45cc-a45e-2eed0d925672</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

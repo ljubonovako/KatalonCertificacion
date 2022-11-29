@@ -23,20 +23,20 @@ WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-first-form-demo.htm
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementClickable(findTestObject('Validar_campo/Page_Selenium Easy Demo - Simple Form to Au_3f5468/a_No, thanks'), 
+WebUI.waitForElementClickable(findTestObject('Validar_campo/Page_Selenium Easy/a_No, thanks'), 
     3)
 
-WebUI.click(findTestObject('Object Repository/Validar_campo/Page_Selenium Easy Demo - Simple Form to Au_3f5468/a_No, thanks'))
+WebUI.click(findTestObject('Object Repository/Validar_campo/Page_Selenium Easy/a_No, thanks'))
 
-WebUI.setText(findTestObject('Object Repository/Validar_campo/Page_Selenium Easy Demo - Simple Form to Au_3f5468/input_Enter a_sum1'), 
+WebUI.setText(findTestObject('Object Repository/Validar_campo/Page_Selenium Easy/input_Enter a_sum1'), 
     '5')
 
-WebUI.setText(findTestObject('Object Repository/Validar_campo/Page_Selenium Easy Demo - Simple Form to Au_3f5468/input_Enter b_sum2'), 
+WebUI.setText(findTestObject('Object Repository/Validar_campo/Page_Selenium Easy/input_Enter b_sum2'), 
     '5')
 
-WebUI.click(findTestObject('Object Repository/Validar_campo/Page_Selenium Easy Demo - Simple Form to Au_3f5468/button_Get Total'))
+WebUI.click(findTestObject('Object Repository/Spy_web/button_Get Total'))
 
-resultado = WebUI.getText(findTestObject('Validar_campo/Page_Selenium Easy Demo - Simple Form to Au_3f5468/Page_Selenium Easy Demo - Simple Form to Automate using Selenium/span_10'))
+resultado = WebUI.getText(findTestObject('Validar_campo/Page_Selenium Easy/span_10'))
 
 print('El resultado es: ' + resultado)
 
