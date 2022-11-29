@@ -207,7 +207,7 @@
    <testCaseLink>
       <guid>2e5f15c0-e112-4238-94ef-6670a260e7a0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Validar_calculo/Validar_calculo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
