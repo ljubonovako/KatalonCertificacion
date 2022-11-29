@@ -25,28 +25,28 @@ WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(Page_load)
 
-WebUI.waitForElementClickable(findTestObject('Wait/Page_Selenium Easy Demo - Simple Form to Au_3f5468/a_No, thanks'), Wait_general)
+WebUI.waitForElementClickable(findTestObject('Wait/Page_Selenium Easy/a_No, thanks'), Wait_general)
 
-WebUI.click(findTestObject('Object Repository/Wait/Page_Selenium Easy Demo - Simple Form to Au_3f5468/a_No, thanks'))
+WebUI.click(findTestObject('Object Repository/Wait/Page_Selenium Easy/a_No, thanks'))
 
-WebUI.setText(findTestObject('Object Repository/Wait/Page_Selenium Easy Demo - Simple Form to Au_3f5468/input_Enter message_user-message'), 
+WebUI.setText(findTestObject('Object Repository/Wait/Page_Selenium Easy/input_Enter message_user-message'), 
     'Bienvenidos a Katalon función Wait')
 
-WebUI.waitForElementVisible(findTestObject('Wait/Page_Selenium Easy Demo - Simple Form to Au_3f5468/button_Show Message'), 
+WebUI.waitForElementVisible(findTestObject('Wait/Page_Selenium Easy/button_Show Message'), 
     Wait_general)
 
-WebUI.click(findTestObject('Object Repository/Wait/Page_Selenium Easy Demo - Simple Form to Au_3f5468/button_Show Message'))
+WebUI.click(findTestObject('Object Repository/Wait/Page_Selenium Easy/button_Show Message'))
 
-WebUI.setText(findTestObject('Object Repository/Wait/Page_Selenium Easy Demo - Simple Form to Au_3f5468/input_Enter a_sum1'), 
+WebUI.setText(findTestObject('Object Repository/Wait/Page_Selenium Easy/input_Enter a_sum1'), 
     '5')
 
-WebUI.setText(findTestObject('Object Repository/Wait/Page_Selenium Easy Demo - Simple Form to Au_3f5468/input_Enter b_sum2'), 
+WebUI.setText(findTestObject('Object Repository/Wait/Page_Selenium Easy/input_Enter b_sum2'), 
     '5')
 
-WebUI.waitForElementPresent(findTestObject('Wait/Page_Selenium Easy Demo - Simple Form to Au_3f5468/button_Get Total'), 
+WebUI.waitForElementPresent(findTestObject('Wait/Page_Selenium Easy/button_Get Total'), 
     Wait_general)
 
-WebUI.click(findTestObject('Object Repository/Wait/Page_Selenium Easy Demo - Simple Form to Au_3f5468/button_Get Total'))
+WebUI.click(findTestObject('Object Repository/Wait/Page_Selenium Easy/button_Get Total'))
 
 WebUI.closeBrowser()
 
