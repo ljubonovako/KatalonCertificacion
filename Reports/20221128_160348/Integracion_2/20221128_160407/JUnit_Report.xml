@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Integracion_2" time="42.909" tests="8" failures="1" errors="0">
+   <testsuite name="Integracion_2" tests="8" failures="1" errors="0" time="42.909" skipped="0" timestamp="2022-11-28 16:04:22" hostname="NTK2299$ - 192.168.0.13" id="Test Suites/Integracion_2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221128_160348\\Integracion_2\\20221128_160407"/>
+         <property name="logFiles" value="C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221128_160348\\Integracion_2\\20221128_160407\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221128_160348\\Integracion_2\\20221128_160407\\1669662305235.png"/>
+         <property name="hostName" value="NTK2299$ - 192.168.0.13"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.13"/>
+         <property name="sessionId" value="807dfd1b232107cf5a20fc43e37c0bf3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BUCLES/Reto_while" time="20.822" classname="Test Cases/BUCLES/Reto_while" status="PASSED">
+         <system-out><![CDATA[2022-11-28 16:04:22 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_while: Test Cases/BUCLES/Reto_while
+
+2022-11-28 16:04:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-28 16:04:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-28 16:04:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-28 16:04:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-28 16:04:28 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-11-28 16:04:33 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-11-28 16:04:33 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-28 16:04:33 - [TEST_STEP][PASSED] - while (Bandera != 1): null
+
+2022-11-28 16:04:33 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-28 16:04:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+3' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 16:04:34 - [MESSAGE][PASSED] - Text '5+3' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 16:04:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 16:04:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-28 16:04:42 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '8'
+
+2022-11-28 16:04:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '8'
+
+2022-11-28 16:04:43 - [TEST_STEP][PASSED] - if (Resultado == "8"): Browser is closed
+
+2022-11-28 16:04:43 - [TEST_STEP][PASSED] - Bandera = 1: null
+
+2022-11-28 16:04:43 - [TEST_STEP][PASSED] - print("Listo termina"): null
+
+2022-11-28 16:04:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-28 16:04:43 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-28 16:04:43 - [TEST_STEP][PASSED] - print(Bandera + "------"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_1" time="0.456" classname="Test Cases/Condicionales_If/Test_1" status="PASSED">
+         <system-out><![CDATA[2022-11-28 16:04:43 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_1: Test Cases/Condicionales_If/Test_1
+
+2022-11-28 16:04:44 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-28 16:04:44 - [TEST_STEP][PASSED] - else: null
+
+2022-11-28 16:04:44 - [TEST_STEP][PASSED] - print("El numero no es un 10 es el numero:  " + num + "#####"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_2" time="0.285" classname="Test Cases/Condicionales_If/Test_2" status="PASSED">
+         <system-out><![CDATA[2022-11-28 16:04:44 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_2: Test Cases/Condicionales_If/Test_2
+
+2022-11-28 16:04:44 - [TEST_STEP][PASSED] - if (num == 5): null
+
+2022-11-28 16:04:44 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-28 16:04:44 - [TEST_STEP][PASSED] - println("El valor de la variables es un: 10"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_3" time="0.296" classname="Test Cases/Condicionales_If/Test_3" status="PASSED">
+         <system-out><![CDATA[2022-11-28 16:04:44 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_3: Test Cases/Condicionales_If/Test_3
+
+2022-11-28 16:04:44 - [TEST_STEP][PASSED] - if (nombre == "Juan"): null
+
+2022-11-28 16:04:44 - [TEST_STEP][PASSED] - if (nombre == "JUan"): null
+
+2022-11-28 16:04:44 - [TEST_STEP][PASSED] - if (nombre == "juan"): null
+
+2022-11-28 16:04:44 - [TEST_STEP][PASSED] - println("Tu nombre es juan"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_4" time="0.309" classname="Test Cases/Condicionales_If/Test_4" status="PASSED">
+         <system-out><![CDATA[2022-11-28 16:04:44 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_4: Test Cases/Condicionales_If/Test_4
+
+2022-11-28 16:04:45 - [TEST_STEP][PASSED] - if (num <= 7): null
+
+2022-11-28 16:04:45 - [TEST_STEP][PASSED] - println("El numero es menor ó igual que 5"): null
+
+2022-11-28 16:04:45 - [TEST_STEP][PASSED] - if (num >= 8): null
+
+2022-11-28 16:04:45 - [TEST_STEP][PASSED] - if (num != 5): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_2" time="0.029" classname="Test Cases/Condicionales_If/Test_2" status="PASSED">
+         <system-out><![CDATA[2022-11-28 16:04:45 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_2: Test Cases/Condicionales_If/Test_2
+
+2022-11-28 16:04:45 - [TEST_STEP][PASSED] - if (num == 5): null
+
+2022-11-28 16:04:45 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-28 16:04:45 - [TEST_STEP][PASSED] - println("El valor de la variables es un: 10"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_1" time="0.034" classname="Test Cases/Condicionales_If/Test_1" status="PASSED">
+         <system-out><![CDATA[2022-11-28 16:04:45 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_1: Test Cases/Condicionales_If/Test_1
+
+2022-11-28 16:04:45 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-28 16:04:45 - [TEST_STEP][PASSED] - else: null
+
+2022-11-28 16:04:45 - [TEST_STEP][PASSED] - print("El numero no es un 10 es el numero:  " + num + "#####"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Google/google" time="20.204" classname="Test Cases/Google/google" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Google/google FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Google/Ferrari'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at google.run(google:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669662247154.run(TempTestSuite1669662247154.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Google/Ferrari' located by '//span[contains(.,'Ferrari')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-11-28 16:04:45 - [TEST_CASE][FAILED] - Test Cases/Google/google: Test Cases/Google/google FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Google/Ferrari'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at google.run(google:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669662247154.run(TempTestSuite1669662247154.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Google/Ferrari' located by '//span[contains(.,'Ferrari')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-11-28 16:04:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-28 16:04:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-28 16:04:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-28 16:04:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-28 16:04:47 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-11-28 16:04:50 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-11-28 16:04:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-28 16:04:50 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-28 16:04:50 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-28 16:04:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-28 16:04:50 - [TEST_STEP][PASSED] - setText(findTestObject("Google/Buscar"), "ferr"): Text 'ferr' is set on object 'Object Repository/Google/Buscar'
+
+2022-11-28 16:04:51 - [MESSAGE][PASSED] - Text 'ferr' is set on object 'Object Repository/Google/Buscar'
+
+2022-11-28 16:04:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Google/Ferrari"), 2): Object 'Object Repository/Google/Ferrari' is not present after 2 second(s)
+
+2022-11-28 16:04:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[contains(.,'Ferrari')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-28 16:04:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Google/Ferrari'. Try using Self-healing.
+
+2022-11-28 16:04:55 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-11-28 16:04:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-28 16:04:56 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-11-28 16:04:56 - [MESSAGE][WARNING] - Object 'Object Repository/Google/Ferrari' is not present after 2 second(s)
+
+2022-11-28 16:04:56 - [TEST_STEP][FAILED] - click(findTestObject("Google/Ferrari")): Unable to click on object 'Object Repository/Google/Ferrari' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Google/Ferrari'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at google.run(google:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669662247154.run(TempTestSuite1669662247154.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Google/Ferrari' located by '//span[contains(.,'Ferrari')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at Script1626728307777.run(Script1626728307777.groovy:32)
+	... 13 more
+)
+
+2022-11-28 16:05:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[contains(.,'Ferrari')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-28 16:05:03 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Google/Ferrari'. Try using Self-healing.
+
+2022-11-28 16:05:04 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-11-28 16:05:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-28 16:05:05 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-11-28 16:05:05 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Google/Ferrari' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Google/Ferrari'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at google.run(google:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669662247154.run(TempTestSuite1669662247154.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Google/Ferrari' located by '//span[contains(.,'Ferrari')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at Script1626728307777.run(Script1626728307777.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221128_160348\\Integracion_2\\20221128_160407\\1669662305235.png]]]]></system-out>
+         <system-err><![CDATA[2022-11-28 16:04:45 - [TEST_CASE][FAILED] - Test Cases/Google/google: Test Cases/Google/google FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Google/Ferrari'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at google.run(google:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669662247154.run(TempTestSuite1669662247154.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Google/Ferrari' located by '//span[contains(.,'Ferrari')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-28 16:04:22 - [TEST_SUITE][FAILED] - Integracion_2: Test Cases/Google/google FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Google/Ferrari'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at google.run(google:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669662247154.run(TempTestSuite1669662247154.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Google/Ferrari' located by '//span[contains(.,'Ferrari')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-11-28 16:04:22 - [TEST_SUITE][FAILED] - Integracion_2: Test Cases/Google/google FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Google/Ferrari'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at google.run(google:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669662247154.run(TempTestSuite1669662247154.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Google/Ferrari' located by '//span[contains(.,'Ferrari')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testCLoud,Windows - Chrome 103.0.5060.53,,,2022-11-28 16:54:47,2022-11-28 17:04:41,"9m - 53,995s",FAILED
+,,,,,,,
+Test Cases/Google/google,Windows - Chrome 103.0.5060.53,,,2022-11-28 16:58:31,2022-11-28 16:59:41,"1m - 10,699s",FAILED
+"openBrowser("""")",Windows - Chrome 103.0.5060.53,,,2022-11-28 16:58:31,2022-11-28 16:59:23,"52,309s",PASSED
+"navigateToUrl(""https://www.google.com/"")",Windows - Chrome 103.0.5060.53,,,2022-11-28 16:59:23,2022-11-28 16:59:25,"2,474s",PASSED
+maximizeWindow(),Windows - Chrome 103.0.5060.53,,,2022-11-28 16:59:25,2022-11-28 16:59:27,"1,217s",PASSED
+waitForPageLoad(5),Windows - Chrome 103.0.5060.53,,,2022-11-28 16:59:27,2022-11-28 16:59:28,"1,072s",PASSED
+"setText(findTestObject(""Google/Buscar""), ""ferr"")",Windows - Chrome 103.0.5060.53,,,2022-11-28 16:59:28,2022-11-28 16:59:41,"13,600s",FAILED
+,,,,,,,
+Test Cases/Google2/test1,Windows - Chrome 103.0.5060.53,,,2022-11-28 17:03:23,2022-11-28 17:04:41,"1m - 17,490s",FAILED
+"openBrowser("""")",Windows - Chrome 103.0.5060.53,,,2022-11-28 17:03:23,2022-11-28 17:04:23,"59,975s",PASSED
+"navigateToUrl(""https://www.google.com/"")",Windows - Chrome 103.0.5060.53,,,2022-11-28 17:04:23,2022-11-28 17:04:26,"3,401s",PASSED
+waitForPageLoad(30),Windows - Chrome 103.0.5060.53,,,2022-11-28 17:04:26,2022-11-28 17:04:27,"0,782s",PASSED
+maximizeWindow(),Windows - Chrome 103.0.5060.53,,,2022-11-28 17:04:27,2022-11-28 17:04:29,"1,693s",PASSED
+"setText(findTestObject(""google2/Buscar""), ""ferr"")",Windows - Chrome 103.0.5060.53,,,2022-11-28 17:04:29,2022-11-28 17:04:41,"11,619s",FAILED
