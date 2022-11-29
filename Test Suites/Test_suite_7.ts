@@ -19,13 +19,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7cf5d983-6abe-46ef-8d9e-715eaac8c787</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Validar_calculo/Validar_calculo</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b111695c-dc97-4298-949f-0eb157f48993</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -67,25 +60,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>708439ee-6d92-47d9-b82a-7472a155e235</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>98afe995-764d-4a99-8bd6-ed2646a2e99b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Wait/Wait</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4262e6de-64a9-406a-8570-f52acc24e4a3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c1412bcf-1be9-4327-b65a-2ce2a0aa80ba</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

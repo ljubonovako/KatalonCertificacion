@@ -19,13 +19,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>58658ff6-cf20-48d5-a8bb-8e9b8902d0c5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Validar_calculo/Validar_calculo</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>932db74e-6a1e-4df1-a9d8-dc6eb7a7d9e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
