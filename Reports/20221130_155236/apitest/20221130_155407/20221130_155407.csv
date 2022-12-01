@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+apitest,,,,2022-11-30 15:57:24,2022-11-30 16:04:22,"6m - 58,004s",PASSED
+,,,,,,,
+Test Cases/API_TEST1/AddUser,,,,2022-11-30 15:57:38,2022-11-30 16:00:13,"2m - 34,204s",PASSED
+"Response = sendRequest(findTestObject(""API_TEST1/AddUser""))",,,,2022-11-30 15:57:59,2022-11-30 16:00:11,"2m - 11,356s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-11-30 16:00:11,2022-11-30 16:00:12,"1,545s",PASSED
+print(Response.getResponseText()),,,,2022-11-30 16:00:12,2022-11-30 16:00:13,"0,389s",PASSED
+,,,,,,,
+Test Cases/API_TEST1/TEST_ESTUDIANTES,,,,2022-11-30 16:00:14,2022-11-30 16:00:53,"39,721s",PASSED
+"Response = sendRequest(findTestObject(""API_TEST1/Get_user""))",,,,2022-11-30 16:00:47,2022-11-30 16:00:53,"6,463s",PASSED
+print(Response.getResponseText()),,,,2022-11-30 16:00:53,2022-11-30 16:00:53,"0,027s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-11-30 16:00:53,2022-11-30 16:00:53,"0,020s",PASSED
+,,,,,,,
+Test Cases/API_TEST1/Test_Estudiante_id,,,,2022-11-30 16:00:53,2022-11-30 16:01:18,"24,327s",PASSED
+"Response = sendRequest(findTestObject(""API_TEST1/StudentID""))",,,,2022-11-30 16:01:11,2022-11-30 16:01:14,"3,231s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-11-30 16:01:14,2022-11-30 16:01:14,"0,007s",PASSED
+print(Response.getResponseText()),,,,2022-11-30 16:01:14,2022-11-30 16:01:14,"0,007s",PASSED
+"verifyElementPropertyValue(Response, ""data.last_name"", ""Wong"")",,,,2022-11-30 16:01:14,2022-11-30 16:01:17,"2,560s",PASSED
+"verifyElementPropertyValue(Response, ""support.text"", ""To keep ReqRes free, contributions towards server costs are appreciated!"")",,,,2022-11-30 16:01:17,2022-11-30 16:01:18,"0,672s",PASSED
+,,,,,,,
+Test Cases/API_TEST1/UpdateUser,,,,2022-11-30 16:01:18,2022-11-30 16:01:45,"27,511s",PASSED
+"Response = sendRequest(findTestObject(""API_TEST1/UpdateUser"", [""id"":1]))",,,,2022-11-30 16:01:36,2022-11-30 16:01:45,"9,845s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-11-30 16:01:45,2022-11-30 16:01:45,"0,012s",PASSED
+,,,,,,,
+Test Cases/API_TEST2/AddUser,,,,2022-11-30 16:01:45,2022-11-30 16:02:19,"33,869s",PASSED
+"Response = sendRequest(findTestObject(""API_TEST2/AddUser""))",,,,2022-11-30 16:02:13,2022-11-30 16:02:19,"6,594s",PASSED
+print(Response.getResponseText()),,,,2022-11-30 16:02:19,2022-11-30 16:02:19,"0,003s",PASSED
+"verifyResponseStatusCode(Response, 201)",,,,2022-11-30 16:02:19,2022-11-30 16:02:19,"0,005s",PASSED
+,,,,,,,
+Test Cases/API_TEST2/AddUserDinamic,,,,2022-11-30 16:02:19,2022-11-30 16:03:02,"42,804s",PASSED
+"Response = sendRequest(findTestObject(""API_TEST2/AddUserDinamic"", [""Nom"":""Efrain"", ""Dep"":""Informatica""]))",,,,2022-11-30 16:02:51,2022-11-30 16:03:02,"10,951s",PASSED
+print(Response.getResponseText()),,,,2022-11-30 16:03:02,2022-11-30 16:03:02,"0,002s",PASSED
+,,,,,,,
+Test Cases/API_TEST2/API_USUARIOS,,,,2022-11-30 16:03:02,2022-11-30 16:03:25,"22,548s",PASSED
+"Response = sendRequest(findTestObject(""API_TEST2/Get_Usuarios""))",,,,2022-11-30 16:03:21,2022-11-30 16:03:25,"3,406s",PASSED
+print(Response.getResponseText()),,,,2022-11-30 16:03:25,2022-11-30 16:03:25,"0,002s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-11-30 16:03:25,2022-11-30 16:03:25,"0,008s",PASSED
+,,,,,,,
+Test Cases/API_TEST2/DeleteUser,,,,2022-11-30 16:03:25,2022-11-30 16:03:38,"13,289s",PASSED
+"Response = sendRequest(findTestObject(""API_TEST2/Delete_user"", [""id"":7]))",,,,2022-11-30 16:03:33,2022-11-30 16:03:38,"4,489s",PASSED
+,,,,,,,
+Test Cases/API_TEST2/Student_ID_Dinamic,,,,2022-11-30 16:03:38,2022-11-30 16:03:52,"13,647s",PASSED
+"Response = sendRequest(findTestObject(""API_TEST2/BuscarId_Dinamic"", [""id"":3]))",,,,2022-11-30 16:03:48,2022-11-30 16:03:52,"4,009s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-11-30 16:03:52,2022-11-30 16:03:52,"0,011s",PASSED
+print(Response.getResponseText()),,,,2022-11-30 16:03:52,2022-11-30 16:03:52,"0,001s",PASSED
+,,,,,,,
+Test Cases/API_TEST2/UpdateUser,,,,2022-11-30 16:03:52,2022-11-30 16:04:09,"17,344s",PASSED
+"Response = sendRequest(findTestObject(""API_TEST2/UpdateUser"", [""id"":3]))",,,,2022-11-30 16:04:03,2022-11-30 16:04:09,"5,434s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-11-30 16:04:09,2022-11-30 16:04:09,"0,435s",PASSED
+print(Response.getResponseText()),,,,2022-11-30 16:04:09,2022-11-30 16:04:09,"0,004s",PASSED
+,,,,,,,
+Test Cases/API_TEST2/Usuario_ID,,,,2022-11-30 16:04:09,2022-11-30 16:04:22,"12,691s",PASSED
+"Response = sendRequest(findTestObject(""API_TEST2/Students_id""))",,,,2022-11-30 16:04:18,2022-11-30 16:04:21,"2,268s",PASSED
+print(Response.getResponseText()),,,,2022-11-30 16:04:21,2022-11-30 16:04:21,"0,001s",PASSED
+"verifyElementPropertyValue(Response, ""data.email"", ""janet.weaver@reqres.in"")",,,,2022-11-30 16:04:21,2022-11-30 16:04:21,"0,087s",PASSED
+"verifyElementPropertyValue(Response, ""support.text"", ""To keep ReqRes free, contributions towards server costs are appreciated!"")",,,,2022-11-30 16:04:21,2022-11-30 16:04:21,"0,866s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-11-30 16:04:21,2022-11-30 16:04:22,"0,244s",PASSED

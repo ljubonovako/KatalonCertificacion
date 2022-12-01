@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="apitest" time="30.933" tests="11" failures="0" errors="0">
+   <testsuite name="apitest" tests="11" failures="0" errors="0" time="30.933" skipped="0" timestamp="2022-11-30 15:30:01" hostname="admin - 192.168.0.13" id="Test Suites/apitest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221130_152949\\apitest\\20221130_152949"/>
+         <property name="logFiles" value="C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221130_152949\\apitest\\20221130_152949\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - 192.168.0.13"/>
+         <property name="hostAddress" value="192.168.0.13"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+      </properties>
+      <testcase name="Test Cases/API_TEST1/AddUser" time="9.777" classname="Test Cases/API_TEST1/AddUser" status="PASSED">
+         <system-out><![CDATA[2022-11-30 15:30:02 - [TEST_CASE][PASSED] - Test Cases/API_TEST1/AddUser: Test Cases/API_TEST1/AddUser
+
+2022-11-30 15:30:03 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API_TEST1/AddUser")): Send request successfully
+
+2022-11-30 15:30:12 - [MESSAGE][INFO] - HAR: C:\Users\admin\git\KatalonCertificacion\Reports\20221130_152949\apitest\20221130_152949\requests\main\0.har
+
+2022-11-30 15:30:12 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-30 15:30:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-11-30 15:30:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-30 15:30:12 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API_TEST1/TEST_ESTUDIANTES" time="3.51" classname="Test Cases/API_TEST1/TEST_ESTUDIANTES" status="PASSED">
+         <system-out><![CDATA[2022-11-30 15:30:12 - [TEST_CASE][PASSED] - Test Cases/API_TEST1/TEST_ESTUDIANTES: Test Cases/API_TEST1/TEST_ESTUDIANTES
+
+2022-11-30 15:30:13 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API_TEST1/Get_user")): Send request successfully
+
+2022-11-30 15:30:15 - [MESSAGE][INFO] - HAR: C:\Users\admin\git\KatalonCertificacion\Reports\20221130_152949\apitest\20221130_152949\requests\main\1.har
+
+2022-11-30 15:30:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-30 15:30:15 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2022-11-30 15:30:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-11-30 15:30:15 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API_TEST1/Test_Estudiante_id" time="2.142" classname="Test Cases/API_TEST1/Test_Estudiante_id" status="PASSED">
+         <system-out><![CDATA[2022-11-30 15:30:15 - [TEST_CASE][PASSED] - Test Cases/API_TEST1/Test_Estudiante_id: Test Cases/API_TEST1/Test_Estudiante_id
+
+2022-11-30 15:30:17 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API_TEST1/StudentID")): Send request successfully
+
+2022-11-30 15:30:17 - [MESSAGE][INFO] - HAR: C:\Users\admin\git\KatalonCertificacion\Reports\20221130_152949\apitest\20221130_152949\requests\main\2.har
+
+2022-11-30 15:30:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-30 15:30:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-11-30 15:30:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-30 15:30:17 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2022-11-30 15:30:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.last_name", "Wong"): Verify element property value successfully
+
+2022-11-30 15:30:18 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-11-30 15:30:18 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "support.text", "To keep ReqRes free, contributions towards server costs are appreciated!"): Verify element property value successfully
+
+2022-11-30 15:30:18 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API_TEST1/UpdateUser" time="1.705" classname="Test Cases/API_TEST1/UpdateUser" status="PASSED">
+         <system-out><![CDATA[2022-11-30 15:30:18 - [TEST_CASE][PASSED] - Test Cases/API_TEST1/UpdateUser: Test Cases/API_TEST1/UpdateUser
+
+2022-11-30 15:30:18 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API_TEST1/UpdateUser", ["id":1])): Send request successfully
+
+2022-11-30 15:30:19 - [MESSAGE][INFO] - HAR: C:\Users\admin\git\KatalonCertificacion\Reports\20221130_152949\apitest\20221130_152949\requests\main\3.har
+
+2022-11-30 15:30:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-30 15:30:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-11-30 15:30:19 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API_TEST2/AddUser" time="1.554" classname="Test Cases/API_TEST2/AddUser" status="PASSED">
+         <system-out><![CDATA[2022-11-30 15:30:19 - [TEST_CASE][PASSED] - Test Cases/API_TEST2/AddUser: Test Cases/API_TEST2/AddUser
+
+2022-11-30 15:30:20 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API_TEST2/AddUser")): Send request successfully
+
+2022-11-30 15:30:21 - [MESSAGE][INFO] - HAR: C:\Users\admin\git\KatalonCertificacion\Reports\20221130_152949\apitest\20221130_152949\requests\main\4.har
+
+2022-11-30 15:30:21 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-30 15:30:21 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2022-11-30 15:30:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 201): Verify response status code successfully
+
+2022-11-30 15:30:21 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API_TEST2/AddUserDinamic" time="2.94" classname="Test Cases/API_TEST2/AddUserDinamic" status="PASSED">
+         <system-out><![CDATA[2022-11-30 15:30:21 - [TEST_CASE][PASSED] - Test Cases/API_TEST2/AddUserDinamic: Test Cases/API_TEST2/AddUserDinamic
+
+2022-11-30 15:30:22 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API_TEST2/AddUserDinamic", ["Nom":"Efrain", "Dep":"Informatica"])): Send request successfully
+
+2022-11-30 15:30:24 - [MESSAGE][INFO] - HAR: C:\Users\admin\git\KatalonCertificacion\Reports\20221130_152949\apitest\20221130_152949\requests\main\5.har
+
+2022-11-30 15:30:24 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-30 15:30:24 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API_TEST2/API_USUARIOS" time="1.348" classname="Test Cases/API_TEST2/API_USUARIOS" status="PASSED">
+         <system-out><![CDATA[2022-11-30 15:30:24 - [TEST_CASE][PASSED] - Test Cases/API_TEST2/API_USUARIOS: Test Cases/API_TEST2/API_USUARIOS
+
+2022-11-30 15:30:25 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API_TEST2/Get_Usuarios")): Send request successfully
+
+2022-11-30 15:30:25 - [MESSAGE][INFO] - HAR: C:\Users\admin\git\KatalonCertificacion\Reports\20221130_152949\apitest\20221130_152949\requests\main\6.har
+
+2022-11-30 15:30:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-30 15:30:25 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2022-11-30 15:30:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-11-30 15:30:25 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API_TEST2/DeleteUser" time="2.14" classname="Test Cases/API_TEST2/DeleteUser" status="PASSED">
+         <system-out><![CDATA[2022-11-30 15:30:25 - [TEST_CASE][PASSED] - Test Cases/API_TEST2/DeleteUser: Test Cases/API_TEST2/DeleteUser
+
+2022-11-30 15:30:26 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API_TEST2/Delete_user", ["id":7])): Send request successfully
+
+2022-11-30 15:30:27 - [MESSAGE][INFO] - HAR: C:\Users\admin\git\KatalonCertificacion\Reports\20221130_152949\apitest\20221130_152949\requests\main\7.har
+
+2022-11-30 15:30:27 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API_TEST2/Student_ID_Dinamic" time="1.399" classname="Test Cases/API_TEST2/Student_ID_Dinamic" status="PASSED">
+         <system-out><![CDATA[2022-11-30 15:30:27 - [TEST_CASE][PASSED] - Test Cases/API_TEST2/Student_ID_Dinamic: Test Cases/API_TEST2/Student_ID_Dinamic
+
+2022-11-30 15:30:28 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API_TEST2/BuscarId_Dinamic", ["id":3])): Send request successfully
+
+2022-11-30 15:30:29 - [MESSAGE][INFO] - HAR: C:\Users\admin\git\KatalonCertificacion\Reports\20221130_152949\apitest\20221130_152949\requests\main\8.har
+
+2022-11-30 15:30:29 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-30 15:30:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-11-30 15:30:29 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-30 15:30:29 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API_TEST2/UpdateUser" time="2.393" classname="Test Cases/API_TEST2/UpdateUser" status="PASSED">
+         <system-out><![CDATA[2022-11-30 15:30:29 - [TEST_CASE][PASSED] - Test Cases/API_TEST2/UpdateUser: Test Cases/API_TEST2/UpdateUser
+
+2022-11-30 15:30:30 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API_TEST2/UpdateUser", ["id":3])): Send request successfully
+
+2022-11-30 15:30:31 - [MESSAGE][INFO] - HAR: C:\Users\admin\git\KatalonCertificacion\Reports\20221130_152949\apitest\20221130_152949\requests\main\9.har
+
+2022-11-30 15:30:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-30 15:30:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-11-30 15:30:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-30 15:30:31 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API_TEST2/Usuario_ID" time="1.135" classname="Test Cases/API_TEST2/Usuario_ID" status="PASSED">
+         <system-out><![CDATA[2022-11-30 15:30:31 - [TEST_CASE][PASSED] - Test Cases/API_TEST2/Usuario_ID: Test Cases/API_TEST2/Usuario_ID
+
+2022-11-30 15:30:32 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API_TEST2/Students_id")): Send request successfully
+
+2022-11-30 15:30:32 - [MESSAGE][INFO] - HAR: C:\Users\admin\git\KatalonCertificacion\Reports\20221130_152949\apitest\20221130_152949\requests\main\10.har
+
+2022-11-30 15:30:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-30 15:30:32 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2022-11-30 15:30:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.email", "janet.weaver@reqres.in"): Verify element property value successfully
+
+2022-11-30 15:30:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-11-30 15:30:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "support.text", "To keep ReqRes free, contributions towards server costs are appreciated!"): Verify element property value successfully
+
+2022-11-30 15:30:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-11-30 15:30:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-11-30 15:30:32 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-30 15:30:01 - [TEST_SUITE][PASSED] - apitest: Test Cases/API_TEST2/Usuario_ID]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

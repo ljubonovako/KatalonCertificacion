@@ -1,0 +1,2017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testCLoud" time="5951.242" tests="34" failures="0" errors="0">
+   <testsuite name="testCLoud" tests="34" failures="0" errors="0" time="5951.242" skipped="0" timestamp="2022-11-30 18:55:16" hostname="admin - 192.168.0.13" id="Test Suites/testCLoud">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221130_185501\\testCLoud\\20221130_185501"/>
+         <property name="logFiles" value="C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221130_185501\\testCLoud\\20221130_185501\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - 192.168.0.13"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserVersion&quot;: &quot;103.0.5060.53&quot;,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})&quot;,
+    &quot;userDataDir&quot;: &quot;C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\scoped_dir6836_749134343&quot;
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:49835&quot;
+  },
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;jwt&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsbm92YWtvdmljaEBlY29zaXN0ZW1hcy5jb20uYXIiLCJ1cG4iOiIxMDgwMDQ1IiwiZ3JvdXBzIjpbIlVTRVIiXSwic3RhdHVzIjoiVkVSSUZJRUQiLCJnaXZlbl9uYW1lIjoiTGp1Ym8iLCJmYW1pbHlfbmFtZSI6Ik5vdmFrb3ZpY2giLCJlbWFpbCI6Imxub3Zha292aWNoQGVjb3Npc3RlbWFzLmNvbS5hciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJjcmVhdGVkX2F0IjoxNjY4NTQwMTA2LCJ1cGRhdGVkX2F0IjoxNjY5ODM5ODk5LCJhbXIiOlsicHdkIl0sImlhdCI6MTY2OTgzOTkwNiwiZXhwIjoxNjcwNDQ0NzA2LCJqdGkiOiI4OWMzYzNhNS0yMWI1LTQ4ZjktOTU0Zi0yY2JkZDY0YzQ0Y2QiLCJpc3MiOiJrYXRhbG9uLWF1dGgifQ.GcviXgGQEK65S3AJ49qAorDnITxk6_iKk07RBWaMZF0YCz5GOhIZ5rneNgQ7OXBanEB87wN6KZQlzfRAklRbAJHJ46w5NaVoxQJudd3SLFII6tC2M1k40OgZwRnJvZI1ciegwPZzU5oQmbbnTdVIkhjBVgRQY_6AnN57rYXuvLfFzmpIU7z0wmPGUdYHGqR-MQNM9gQecKd1Y0FNLVqLglEUu1y_DX6j7jCv1QxnLg9OctqYJT0nG1rzl2ZbesF6rzHBkzqOYyfSNkNb6kGX5cMMHJeCGQN6bjU4it5xnzb5N6jRUwuhs6PU-sFAAREkEq-S0xrj6WOmRFWU0z2YQw&quot;,
+    &quot;userId&quot;: 1080045,
+    &quot;organizationId&quot;: &quot;987205&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;usingTunnel&quot;: false,
+    &quot;username&quot;: &quot;lnovakovich@ecosistemas.com.ar&quot;
+  },
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;requestId&quot;: &quot;9ab2018a-d505-458d-9d0b-447ddb951030&quot;,
+  &quot;se:cdp&quot;: &quot;ws://10.0.2.2:4444/session/a17b650c89d73262275d84bd106337f6/se/cdp&quot;,
+  &quot;se:cdpVersion&quot;: &quot;103.0.5060.53&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="browser" value="Chrome 103.0.5060.53"/>
+         <property name="hostAddress" value="192.168.0.13"/>
+         <property name="sessionId" value="a17b650c89d73262275d84bd106337f6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navegador/Navegador" time="161.506" classname="Test Cases/Navegador/Navegador" status="PASSED">
+         <system-out><![CDATA[2022-11-30 18:55:16 - [TEST_CASE][PASSED] - Test Cases/Navegador/Navegador: Test Cases/Navegador/Navegador
+
+2022-11-30 18:55:17 - [TEST_STEP][PASSED] - openBrowser("https://demoqa.com/text-box"): Browser is opened with url: 'https://demoqa.com/text-box'
+
+2022-11-30 18:55:18 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 18:55:18 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 18:55:18 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 18:55:18 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 18:55:18 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 18:55:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 18:57:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoqa.com/text-box'
+
+2022-11-30 18:57:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 18:57:50 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 18:57:50 - [TEST_STEP][PASSED] - page_url = getUrl(): Current window's url is: 'https://demoqa.com/text-box'
+
+2022-11-30 18:57:51 - [MESSAGE][PASSED] - Current window's url is: 'https://demoqa.com/text-box'
+
+2022-11-30 18:57:51 - [TEST_STEP][PASSED] - print(page_url): null
+
+2022-11-30 18:57:51 - [TEST_STEP][PASSED] - Titulo = getWindowTitle(): Current window's title is: 'ToolsQA'
+
+2022-11-30 18:57:52 - [MESSAGE][PASSED] - Current window's title is: 'ToolsQA'
+
+2022-11-30 18:57:52 - [TEST_STEP][PASSED] - print("titiulo de la pagina" + Titulo): null
+
+2022-11-30 18:57:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 18:57:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Objecto_xpath/Caso_xpath" time="184.576" classname="Test Cases/Objecto_xpath/Caso_xpath" status="PASSED">
+         <system-out><![CDATA[2022-11-30 18:57:58 - [TEST_CASE][PASSED] - Test Cases/Objecto_xpath/Caso_xpath: Test Cases/Objecto_xpath/Caso_xpath
+
+2022-11-30 18:57:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 18:57:59 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 18:57:59 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 18:57:59 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 18:57:59 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 18:57:59 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 18:57:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 19:00:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 19:00:40 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:00:45 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:00:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 19:00:47 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 19:00:47 - [TEST_STEP][PASSED] - setText(findTestObject("Objeto_xpath/Campo_nombre"), "Ljubo"): Text 'Ljubo' is set on object 'Object Repository/Objeto_xpath/Campo_nombre'
+
+2022-11-30 19:00:56 - [MESSAGE][PASSED] - Text 'Ljubo' is set on object 'Object Repository/Objeto_xpath/Campo_nombre'
+
+2022-11-30 19:00:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-30 19:00:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-30 19:00:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 19:01:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Condicionar_titulo" time="178.1" classname="Test Cases/Condicionales_If/Condicionar_titulo" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:01:03 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Condicionar_titulo: Test Cases/Condicionales_If/Condicionar_titulo
+
+2022-11-30 19:01:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 19:01:03 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 19:01:03 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 19:01:03 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 19:01:03 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 19:01:03 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 19:01:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 19:03:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 19:03:36 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 19:03:39 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 19:03:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 19:03:40 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 19:03:40 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 19:03:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 19:03:41 - [TEST_STEP][PASSED] - Existe = waitForElementVisible(findTestObject("Condicionales/Texto_radio"), 3): Web element with id: 'Object Repository/Condicionales/Texto_radio' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 19:03:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='main-header'][contains(.,'Radio Button')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 19:03:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Condicionales/Texto_radio'. Try using Self-healing.
+
+2022-11-30 19:03:46 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-11-30 19:03:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 19:03:49 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-11-30 19:03:49 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Condicionales/Texto_radio' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 19:03:49 - [TEST_STEP][PASSED] - print(Existe): null
+
+2022-11-30 19:03:49 - [TEST_STEP][PASSED] - if (Existe == true): null
+
+2022-11-30 19:03:49 - [TEST_STEP][PASSED] - else: Browser is closed
+
+2022-11-30 19:03:49 - [TEST_STEP][PASSED] - print("-----  Error no esta el elemento de texto radio ------"): null
+
+2022-11-30 19:03:49 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/radio-button"): Navigate to 'https://demoqa.com/radio-button' successfully
+
+2022-11-30 19:03:52 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/radio-button' successfully
+
+2022-11-30 19:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Condicionales/Objeto_yes")): Object: 'Object Repository/Condicionales/Objeto_yes' is clicked on
+
+2022-11-30 19:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Condicionales/Objeto_yes' is clicked on
+
+2022-11-30 19:03:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-11-30 19:03:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-11-30 19:03:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 19:04:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_1" time="0.802" classname="Test Cases/Condicionales_If/Test_1" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:04:01 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_1: Test Cases/Condicionales_If/Test_1
+
+2022-11-30 19:04:01 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-30 19:04:01 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 19:04:01 - [TEST_STEP][PASSED] - print("El numero no es un 10 es el numero:  " + num + "#####"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_2" time="0.46" classname="Test Cases/Condicionales_If/Test_2" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:04:01 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_2: Test Cases/Condicionales_If/Test_2
+
+2022-11-30 19:04:02 - [TEST_STEP][PASSED] - if (num == 5): null
+
+2022-11-30 19:04:02 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-30 19:04:02 - [TEST_STEP][PASSED] - println("El valor de la variables es un: 10"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_3" time="0.47" classname="Test Cases/Condicionales_If/Test_3" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:04:02 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_3: Test Cases/Condicionales_If/Test_3
+
+2022-11-30 19:04:02 - [TEST_STEP][PASSED] - if (nombre == "Juan"): null
+
+2022-11-30 19:04:02 - [TEST_STEP][PASSED] - if (nombre == "JUan"): null
+
+2022-11-30 19:04:02 - [TEST_STEP][PASSED] - if (nombre == "juan"): null
+
+2022-11-30 19:04:02 - [TEST_STEP][PASSED] - println("Tu nombre es juan"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_4" time="0.574" classname="Test Cases/Condicionales_If/Test_4" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:04:02 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_4: Test Cases/Condicionales_If/Test_4
+
+2022-11-30 19:04:03 - [TEST_STEP][PASSED] - if (num <= 7): null
+
+2022-11-30 19:04:03 - [TEST_STEP][PASSED] - println("El numero es menor ó igual que 5"): null
+
+2022-11-30 19:04:03 - [TEST_STEP][PASSED] - if (num >= 8): null
+
+2022-11-30 19:04:03 - [TEST_STEP][PASSED] - if (num != 5): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_edad" time="0.843" classname="Test Cases/Condicionales_If/Test_edad" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:04:03 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_edad: Test Cases/Condicionales_If/Test_edad
+
+2022-11-30 19:04:04 - [TEST_STEP][PASSED] - if (edad >= 1 && edad <= 17): null
+
+2022-11-30 19:04:04 - [TEST_STEP][PASSED] - else if (edad == 18): null
+
+2022-11-30 19:04:04 - [TEST_STEP][PASSED] - else if (edad <= 0): null
+
+2022-11-30 19:04:04 - [TEST_STEP][PASSED] - else if (edad == 120): null
+
+2022-11-30 19:04:04 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 19:04:04 - [TEST_STEP][PASSED] - print("No se cumple ninguna de las opciones"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_valor" time="166.294" classname="Test Cases/Condicionales_If/Test_valor" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:04:04 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_valor: Test Cases/Condicionales_If/Test_valor
+
+2022-11-30 19:04:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 19:04:05 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 19:04:05 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 19:04:05 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 19:04:05 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 19:04:05 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 19:04:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 19:06:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 19:06:31 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 19:06:33 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 19:06:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 19:06:35 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 19:06:35 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2022-11-30 19:06:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 19:06:37 - [TEST_STEP][PASSED] - Existe = waitForElementVisible(findTestObject("Condicionales/titulo1"), 5): Web element with id: 'Object Repository/Condicionales/titulo1' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 19:06:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='main-header'][contains(.,'Radio Button')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 19:06:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Condicionales/titulo1'. Try using Self-healing.
+
+2022-11-30 19:06:44 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-11-30 19:06:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 19:06:48 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-11-30 19:06:48 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Condicionales/titulo1' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 19:06:48 - [TEST_STEP][PASSED] - if (Existe == true): null
+
+2022-11-30 19:06:48 - [TEST_STEP][PASSED] - else: Browser is closed
+
+2022-11-30 19:06:48 - [TEST_STEP][PASSED] - print("No estas en la página correcta"): null
+
+2022-11-30 19:06:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 19:06:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Reto_For" time="303.083" classname="Test Cases/BUCLES/Reto_For" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:06:50 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_For: Test Cases/BUCLES/Reto_For
+
+2022-11-30 19:06:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 19:06:51 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 19:06:51 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 19:06:51 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 19:06:51 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 19:06:51 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 19:06:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 19:09:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 19:09:21 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:09:23 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:09:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 19:09:25 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 19:09:25 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 19:09:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 19:09:26 - [TEST_STEP][PASSED] - for ([x = 1, x <= 4, (x++)]): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 19:09:26 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 19:09:26 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 19:09:26 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 19:09:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 19:09:33 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 19:09:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 19:09:41 - [MESSAGE][PASSED] - Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 19:09:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 19:09:47 - [MESSAGE][PASSED] - Text 'Dirección#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 19:09:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 19:09:55 - [MESSAGE][PASSED] - Text 'Dirección dos#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 19:09:55 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 19:09:55 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 19:09:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 19:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 19:09:59 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 19:10:00 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 19:10:00 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 19:10:00 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 19:10:00 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 19:10:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Erika' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 19:10:08 - [MESSAGE][PASSED] - Text 'Erika' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 19:10:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Erika@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 19:10:17 - [MESSAGE][PASSED] - Text 'Erika@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 19:10:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 19:10:25 - [MESSAGE][PASSED] - Text 'Dirección#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 19:10:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 19:10:32 - [MESSAGE][PASSED] - Text 'Dirección dos#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 19:10:32 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 19:10:32 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 19:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 19:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 19:10:44 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 19:10:45 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 19:10:45 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 19:10:45 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 19:10:45 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 19:10:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 19:10:51 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 19:10:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 19:10:59 - [MESSAGE][PASSED] - Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 19:10:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 19:11:07 - [MESSAGE][PASSED] - Text 'Dirección#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 19:11:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 19:11:11 - [MESSAGE][PASSED] - Text 'Dirección dos#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 19:11:11 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 19:11:12 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 19:11:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 19:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 19:11:15 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 19:11:16 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 19:11:16 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 19:11:16 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 19:11:16 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 19:11:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 19:11:24 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 19:11:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 19:11:32 - [MESSAGE][PASSED] - Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 19:11:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 19:11:39 - [MESSAGE][PASSED] - Text 'Dirección#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 19:11:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 19:11:47 - [MESSAGE][PASSED] - Text 'Dirección dos#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 19:11:47 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 19:11:48 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 19:11:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 19:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 19:11:50 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 19:11:51 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 19:11:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 19:11:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Reto_while" time="183.326" classname="Test Cases/BUCLES/Reto_while" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:11:53 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_while: Test Cases/BUCLES/Reto_while
+
+2022-11-30 19:11:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 19:11:54 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 19:11:54 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 19:11:54 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 19:11:54 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 19:11:54 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 19:11:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 19:14:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 19:14:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 19:14:23 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 19:14:23 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-30 19:14:23 - [TEST_STEP][PASSED] - while (Bandera != 1): null
+
+2022-11-30 19:14:23 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 19:14:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+2' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 19:14:29 - [MESSAGE][PASSED] - Text '5+2' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 19:14:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 19:14:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 19:14:35 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '7'
+
+2022-11-30 19:14:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '7'
+
+2022-11-30 19:14:40 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2022-11-30 19:14:40 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 19:14:40 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-30 19:14:40 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2022-11-30 19:14:40 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 19:14:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+3' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 19:14:46 - [MESSAGE][PASSED] - Text '5+3' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 19:14:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 19:14:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 19:14:50 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '8'
+
+2022-11-30 19:14:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '8'
+
+2022-11-30 19:14:54 - [TEST_STEP][PASSED] - if (Resultado == "8"): Browser is closed
+
+2022-11-30 19:14:54 - [TEST_STEP][PASSED] - Bandera = 1: null
+
+2022-11-30 19:14:54 - [TEST_STEP][PASSED] - print("Listo termina"): null
+
+2022-11-30 19:14:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 19:14:57 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-30 19:14:57 - [TEST_STEP][PASSED] - print(Bandera + "------"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Reto_while_solucion" time="179.459" classname="Test Cases/BUCLES/Reto_while_solucion" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:14:57 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_while_solucion: Test Cases/BUCLES/Reto_while_solucion
+
+2022-11-30 19:14:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 19:14:57 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 19:14:57 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 19:14:57 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 19:14:57 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 19:14:57 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 19:14:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 19:17:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 19:17:37 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 19:17:39 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 19:17:39 - [TEST_STEP][PASSED] - Res = 0: null
+
+2022-11-30 19:17:39 - [TEST_STEP][PASSED] - while (Res != 8): Browser is closed
+
+2022-11-30 19:17:39 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 19:17:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+3' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 19:17:45 - [MESSAGE][PASSED] - Text '5+3' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 19:17:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 19:17:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 19:17:50 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '8'
+
+2022-11-30 19:17:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '8'
+
+2022-11-30 19:17:53 - [TEST_STEP][PASSED] - if (Res == 8): Browser is closed
+
+2022-11-30 19:17:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 19:17:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_1" time="510.31" classname="Test Cases/BUCLES/Test_1" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:17:56 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_1: Test Cases/BUCLES/Test_1
+
+2022-11-30 19:17:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 19:17:57 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 19:17:57 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 19:17:57 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 19:17:57 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 19:17:57 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 19:17:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 19:20:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 19:20:41 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:20:45 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:20:45 - [TEST_STEP][PASSED] - for ([x = 1, x <= 2, (x++)]): null
+
+2022-11-30 19:20:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 19:20:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-30 19:20:47 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 19:20:47 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 19:20:47 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 19:20:47 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 19:20:47 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 19:20:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 19:23:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 19:23:24 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:23:28 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:23:28 - [TEST_STEP][PASSED] - RN = Math.random() * 10 - 1 + 1: null
+
+2022-11-30 19:23:28 - [TEST_STEP][PASSED] - print("Numero : " + RN + "----"): null
+
+2022-11-30 19:23:28 - [TEST_STEP][PASSED] - z = ["Demo1", "Demo2", "Demo3", "Demo4", "Demo5"]: null
+
+2022-11-30 19:23:28 - [TEST_STEP][PASSED] - rnd = new java.util.Random(): null
+
+2022-11-30 19:23:28 - [TEST_STEP][PASSED] - texto = z[rnd.nextInt(size)]: null
+
+2022-11-30 19:23:28 - [TEST_STEP][PASSED] - print(texto): null
+
+2022-11-30 19:23:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 19:23:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-30 19:23:39 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 19:23:39 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 19:23:39 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 19:23:39 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 19:23:39 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 19:23:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 19:26:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 19:26:18 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:26:21 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:26:21 - [TEST_STEP][PASSED] - RN = Math.random() * 10 - 1 + 1: null
+
+2022-11-30 19:26:21 - [TEST_STEP][PASSED] - print("Numero : " + RN + "----"): null
+
+2022-11-30 19:26:21 - [TEST_STEP][PASSED] - z = ["Demo1", "Demo2", "Demo3", "Demo4", "Demo5"]: null
+
+2022-11-30 19:26:21 - [TEST_STEP][PASSED] - rnd = new java.util.Random(): null
+
+2022-11-30 19:26:21 - [TEST_STEP][PASSED] - texto = z[rnd.nextInt(size)]: null
+
+2022-11-30 19:26:21 - [TEST_STEP][PASSED] - print(texto): null
+
+2022-11-30 19:26:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 19:26:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_2" time="161.353" classname="Test Cases/BUCLES/Test_2" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:41:28 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_2: Test Cases/BUCLES/Test_2
+
+2022-11-30 19:41:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 19:41:29 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 19:41:29 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 19:41:29 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 19:41:29 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 19:41:29 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 19:41:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 19:44:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 19:44:04 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:44:06 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:44:06 - [TEST_STEP][PASSED] - for ([x = 1, x <= 10, x = x + 2]): null
+
+2022-11-30 19:44:06 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 19:44:06 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 19:44:06 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 19:44:06 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 19:44:06 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 19:44:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 19:44:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_while" time="157.734" classname="Test Cases/BUCLES/Test_while" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:44:10 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_while: Test Cases/BUCLES/Test_while
+
+2022-11-30 19:44:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 19:44:10 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 19:44:10 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 19:44:10 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 19:44:10 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 19:44:10 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 19:44:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 19:46:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 19:46:35 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:46:40 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:46:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 19:46:43 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 19:46:43 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 19:46:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 19:46:44 - [TEST_STEP][PASSED] - x = 1: null
+
+2022-11-30 19:46:44 - [TEST_STEP][PASSED] - while (x <= 3): null
+
+2022-11-30 19:46:44 - [TEST_STEP][PASSED] - print("Hola " + x + "----------"): null
+
+2022-11-30 19:46:44 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 19:46:44 - [TEST_STEP][PASSED] - print("Hola " + x + "----------"): null
+
+2022-11-30 19:46:44 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 19:46:44 - [TEST_STEP][PASSED] - print("Hola " + x + "----------"): null
+
+2022-11-30 19:46:44 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 19:46:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 19:46:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_while2" time="169.061" classname="Test Cases/BUCLES/Test_while2" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:46:48 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_while2: Test Cases/BUCLES/Test_while2
+
+2022-11-30 19:46:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 19:46:48 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 19:46:48 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 19:46:48 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 19:46:48 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 19:46:48 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 19:46:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 19:49:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 19:49:19 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:49:23 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:49:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 19:49:24 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 19:49:24 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 19:49:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 19:49:24 - [TEST_STEP][PASSED] - x = 1: null
+
+2022-11-30 19:49:24 - [TEST_STEP][PASSED] - while (x <= 5): null
+
+2022-11-30 19:49:24 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 19:49:24 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 19:49:24 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 19:49:24 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 19:49:24 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 19:49:24 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 19:49:24 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 19:49:24 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 19:49:24 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 19:49:24 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 19:49:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 19:49:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Drive_excel/Drive_excel" time="176.462" classname="Test Cases/Drive_excel/Drive_excel" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:49:37 - [TEST_CASE][PASSED] - Test Cases/Drive_excel/Drive_excel: Test Cases/Drive_excel/Drive_excel
+
+2022-11-30 19:49:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 19:49:37 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 19:49:37 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 19:49:37 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 19:49:37 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 19:49:37 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 19:49:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 19:52:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 19:52:06 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-11-30 19:52:08 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-11-30 19:52:08 - [TEST_STEP][PASSED] - waitForPageLoad(40): Wait for page load successfully
+
+2022-11-30 19:52:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 19:52:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 19:52:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 19:52:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName"), nombre): Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2022-11-30 19:52:18 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2022-11-30 19:52:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName"), apellido): Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2022-11-30 19:52:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2022-11-30 19:52:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail"), email): Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 19:52:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 19:52:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-11-30 19:52:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-11-30 19:52:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 19:52:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navegador/Navegador" time="165.499" classname="Test Cases/Navegador/Navegador" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:52:33 - [TEST_CASE][PASSED] - Test Cases/Navegador/Navegador: Test Cases/Navegador/Navegador
+
+2022-11-30 19:52:33 - [TEST_STEP][PASSED] - openBrowser("https://demoqa.com/text-box"): Browser is opened with url: 'https://demoqa.com/text-box'
+
+2022-11-30 19:52:33 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 19:52:33 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 19:52:33 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 19:52:33 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 19:52:33 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 19:52:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 19:55:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoqa.com/text-box'
+
+2022-11-30 19:55:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 19:55:09 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 19:55:09 - [TEST_STEP][PASSED] - page_url = getUrl(): Current window's url is: 'https://demoqa.com/text-box'
+
+2022-11-30 19:55:10 - [MESSAGE][PASSED] - Current window's url is: 'https://demoqa.com/text-box'
+
+2022-11-30 19:55:10 - [TEST_STEP][PASSED] - print(page_url): null
+
+2022-11-30 19:55:10 - [TEST_STEP][PASSED] - Titulo = getWindowTitle(): Current window's title is: 'ToolsQA'
+
+2022-11-30 19:55:11 - [MESSAGE][PASSED] - Current window's title is: 'ToolsQA'
+
+2022-11-30 19:55:11 - [TEST_STEP][PASSED] - print("titiulo de la pagina" + Titulo): null
+
+2022-11-30 19:55:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 19:55:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Objecto_xpath/Caso_xpath" time="164.661" classname="Test Cases/Objecto_xpath/Caso_xpath" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:55:19 - [TEST_CASE][PASSED] - Test Cases/Objecto_xpath/Caso_xpath: Test Cases/Objecto_xpath/Caso_xpath
+
+2022-11-30 19:55:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 19:55:19 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 19:55:19 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 19:55:19 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 19:55:19 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 19:55:19 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 19:55:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 19:57:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 19:57:46 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:57:50 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 19:57:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 19:57:50 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 19:57:50 - [TEST_STEP][PASSED] - setText(findTestObject("Objeto_xpath/Campo_nombre"), "Ljubo"): Text 'Ljubo' is set on object 'Object Repository/Objeto_xpath/Campo_nombre'
+
+2022-11-30 19:57:56 - [MESSAGE][PASSED] - Text 'Ljubo' is set on object 'Object Repository/Objeto_xpath/Campo_nombre'
+
+2022-11-30 19:57:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-30 19:58:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-30 19:58:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 19:58:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Condicionar_titulo" time="169.673" classname="Test Cases/Condicionales_If/Condicionar_titulo" status="PASSED">
+         <system-out><![CDATA[2022-11-30 19:58:03 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Condicionar_titulo: Test Cases/Condicionales_If/Condicionar_titulo
+
+2022-11-30 19:58:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 19:58:03 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 19:58:03 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 19:58:03 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 19:58:03 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 19:58:03 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 19:58:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 20:00:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 20:00:30 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 20:00:32 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 20:00:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 20:00:33 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 20:00:33 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 20:00:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 20:00:33 - [TEST_STEP][PASSED] - Existe = waitForElementVisible(findTestObject("Condicionales/Texto_radio"), 3): Web element with id: 'Object Repository/Condicionales/Texto_radio' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 20:00:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='main-header'][contains(.,'Radio Button')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 20:00:38 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Condicionales/Texto_radio'. Try using Self-healing.
+
+2022-11-30 20:00:39 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-11-30 20:00:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 20:00:42 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-11-30 20:00:42 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Condicionales/Texto_radio' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 20:00:42 - [TEST_STEP][PASSED] - print(Existe): null
+
+2022-11-30 20:00:42 - [TEST_STEP][PASSED] - if (Existe == true): null
+
+2022-11-30 20:00:42 - [TEST_STEP][PASSED] - else: Browser is closed
+
+2022-11-30 20:00:42 - [TEST_STEP][PASSED] - print("-----  Error no esta el elemento de texto radio ------"): null
+
+2022-11-30 20:00:42 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/radio-button"): Navigate to 'https://demoqa.com/radio-button' successfully
+
+2022-11-30 20:00:45 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/radio-button' successfully
+
+2022-11-30 20:00:45 - [TEST_STEP][PASSED] - click(findTestObject("Condicionales/Objeto_yes")): Object: 'Object Repository/Condicionales/Objeto_yes' is clicked on
+
+2022-11-30 20:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Condicionales/Objeto_yes' is clicked on
+
+2022-11-30 20:00:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-11-30 20:00:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-11-30 20:00:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 20:00:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_1" time="0.055" classname="Test Cases/Condicionales_If/Test_1" status="PASSED">
+         <system-out><![CDATA[2022-11-30 20:00:53 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_1: Test Cases/Condicionales_If/Test_1
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - print("El numero no es un 10 es el numero:  " + num + "#####"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_2" time="0.032" classname="Test Cases/Condicionales_If/Test_2" status="PASSED">
+         <system-out><![CDATA[2022-11-30 20:00:53 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_2: Test Cases/Condicionales_If/Test_2
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - if (num == 5): null
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - println("El valor de la variables es un: 10"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_3" time="0.057" classname="Test Cases/Condicionales_If/Test_3" status="PASSED">
+         <system-out><![CDATA[2022-11-30 20:00:53 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_3: Test Cases/Condicionales_If/Test_3
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - if (nombre == "Juan"): null
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - if (nombre == "JUan"): null
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - if (nombre == "juan"): null
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - println("Tu nombre es juan"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_4" time="0.077" classname="Test Cases/Condicionales_If/Test_4" status="PASSED">
+         <system-out><![CDATA[2022-11-30 20:00:53 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_4: Test Cases/Condicionales_If/Test_4
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - if (num <= 7): null
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - println("El numero es menor ó igual que 5"): null
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - if (num >= 8): null
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - if (num != 5): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_edad" time="0.046" classname="Test Cases/Condicionales_If/Test_edad" status="PASSED">
+         <system-out><![CDATA[2022-11-30 20:00:53 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_edad: Test Cases/Condicionales_If/Test_edad
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - if (edad >= 1 && edad <= 17): null
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - else if (edad == 18): null
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - else if (edad <= 0): null
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - else if (edad == 120): null
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - print("No se cumple ninguna de las opciones"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_valor" time="164.167" classname="Test Cases/Condicionales_If/Test_valor" status="PASSED">
+         <system-out><![CDATA[2022-11-30 20:00:53 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_valor: Test Cases/Condicionales_If/Test_valor
+
+2022-11-30 20:00:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 20:00:53 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 20:00:53 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 20:00:53 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 20:00:53 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 20:00:53 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 20:00:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 20:03:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 20:03:18 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 20:03:21 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 20:03:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 20:03:21 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 20:03:21 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2022-11-30 20:03:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 20:03:23 - [TEST_STEP][PASSED] - Existe = waitForElementVisible(findTestObject("Condicionales/titulo1"), 5): Web element with id: 'Object Repository/Condicionales/titulo1' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 20:03:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='main-header'][contains(.,'Radio Button')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 20:03:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Condicionales/titulo1'. Try using Self-healing.
+
+2022-11-30 20:03:31 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-11-30 20:03:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 20:03:34 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-11-30 20:03:34 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Condicionales/titulo1' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 20:03:34 - [TEST_STEP][PASSED] - if (Existe == true): null
+
+2022-11-30 20:03:34 - [TEST_STEP][PASSED] - else: Browser is closed
+
+2022-11-30 20:03:34 - [TEST_STEP][PASSED] - print("No estas en la página correcta"): null
+
+2022-11-30 20:03:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 20:03:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Reto_For" time="290.497" classname="Test Cases/BUCLES/Reto_For" status="PASSED">
+         <system-out><![CDATA[2022-11-30 20:03:38 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_For: Test Cases/BUCLES/Reto_For
+
+2022-11-30 20:03:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 20:03:38 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 20:03:38 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 20:03:38 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 20:03:38 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 20:03:38 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 20:03:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 20:06:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 20:06:20 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 20:06:23 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 20:06:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 20:06:25 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 20:06:25 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 20:06:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 20:06:26 - [TEST_STEP][PASSED] - for ([x = 1, x <= 4, (x++)]): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 20:06:26 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 20:06:26 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 20:06:26 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 20:06:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Paco' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 20:06:32 - [MESSAGE][PASSED] - Text 'Paco' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 20:06:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Paco@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 20:06:39 - [MESSAGE][PASSED] - Text 'Paco@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 20:06:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 20:06:45 - [MESSAGE][PASSED] - Text 'Dirección#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 20:06:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 20:06:53 - [MESSAGE][PASSED] - Text 'Dirección dos#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 20:06:53 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 20:06:54 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 20:06:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 20:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 20:06:57 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 20:06:58 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 20:06:58 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 20:06:58 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 20:06:58 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 20:06:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 20:07:06 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 20:07:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 20:07:12 - [MESSAGE][PASSED] - Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 20:07:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 20:07:19 - [MESSAGE][PASSED] - Text 'Dirección#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 20:07:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 20:07:26 - [MESSAGE][PASSED] - Text 'Dirección dos#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 20:07:26 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 20:07:27 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 20:07:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 20:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 20:07:32 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 20:07:32 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 20:07:32 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 20:07:32 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 20:07:32 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 20:07:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Erika' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 20:07:38 - [MESSAGE][PASSED] - Text 'Erika' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 20:07:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Erika@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 20:07:43 - [MESSAGE][PASSED] - Text 'Erika@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 20:07:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 20:07:49 - [MESSAGE][PASSED] - Text 'Dirección#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 20:07:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 20:07:54 - [MESSAGE][PASSED] - Text 'Dirección dos#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 20:07:54 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 20:07:55 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 20:07:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 20:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 20:07:57 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 20:07:58 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 20:07:58 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 20:07:58 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 20:07:58 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 20:07:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Paco' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 20:08:04 - [MESSAGE][PASSED] - Text 'Paco' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 20:08:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Paco@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 20:08:10 - [MESSAGE][PASSED] - Text 'Paco@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 20:08:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 20:08:16 - [MESSAGE][PASSED] - Text 'Dirección#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 20:08:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 20:08:20 - [MESSAGE][PASSED] - Text 'Dirección dos#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 20:08:20 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 20:08:21 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 20:08:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 20:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 20:08:24 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 20:08:25 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 20:08:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 20:08:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Reto_while" time="176.739" classname="Test Cases/BUCLES/Reto_while" status="PASSED">
+         <system-out><![CDATA[2022-11-30 20:08:28 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_while: Test Cases/BUCLES/Reto_while
+
+2022-11-30 20:08:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 20:08:28 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 20:08:28 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 20:08:28 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 20:08:28 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 20:08:28 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 20:08:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 20:11:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 20:11:07 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 20:11:10 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 20:11:10 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-30 20:11:10 - [TEST_STEP][PASSED] - while (Bandera != 1): null
+
+2022-11-30 20:11:10 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 20:11:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+3' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 20:11:15 - [MESSAGE][PASSED] - Text '5+3' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 20:11:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 20:11:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 20:11:20 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '8'
+
+2022-11-30 20:11:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '8'
+
+2022-11-30 20:11:22 - [TEST_STEP][PASSED] - if (Resultado == "8"): Browser is closed
+
+2022-11-30 20:11:22 - [TEST_STEP][PASSED] - Bandera = 1: null
+
+2022-11-30 20:11:22 - [TEST_STEP][PASSED] - print("Listo termina"): null
+
+2022-11-30 20:11:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 20:11:25 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-30 20:11:25 - [TEST_STEP][PASSED] - print(Bandera + "------"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Reto_while_solucion" time="218.821" classname="Test Cases/BUCLES/Reto_while_solucion" status="PASSED">
+         <system-out><![CDATA[2022-11-30 20:11:25 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_while_solucion: Test Cases/BUCLES/Reto_while_solucion
+
+2022-11-30 20:11:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 20:11:25 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 20:11:25 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 20:11:25 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 20:11:25 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 20:11:25 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 20:11:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 20:13:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 20:13:49 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 20:13:52 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 20:13:52 - [TEST_STEP][PASSED] - Res = 0: null
+
+2022-11-30 20:13:52 - [TEST_STEP][PASSED] - while (Res != 8): Browser is closed
+
+2022-11-30 20:13:52 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 20:13:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:13:57 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:13:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:04 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '9'
+
+2022-11-30 20:14:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '9'
+
+2022-11-30 20:14:07 - [TEST_STEP][PASSED] - if (Res == 8): null
+
+2022-11-30 20:14:07 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 20:14:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+1' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:13 - [MESSAGE][PASSED] - Text '5+1' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:17 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '6'
+
+2022-11-30 20:14:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '6'
+
+2022-11-30 20:14:21 - [TEST_STEP][PASSED] - if (Res == 8): null
+
+2022-11-30 20:14:21 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 20:14:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+1' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:29 - [MESSAGE][PASSED] - Text '5+1' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:33 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '6'
+
+2022-11-30 20:14:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '6'
+
+2022-11-30 20:14:35 - [TEST_STEP][PASSED] - if (Res == 8): null
+
+2022-11-30 20:14:35 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 20:14:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+2' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:40 - [MESSAGE][PASSED] - Text '5+2' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:46 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '7'
+
+2022-11-30 20:14:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '7'
+
+2022-11-30 20:14:49 - [TEST_STEP][PASSED] - if (Res == 8): null
+
+2022-11-30 20:14:49 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 20:14:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+3' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:54 - [MESSAGE][PASSED] - Text '5+3' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 20:14:58 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '8'
+
+2022-11-30 20:15:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '8'
+
+2022-11-30 20:15:02 - [TEST_STEP][PASSED] - if (Res == 8): Browser is closed
+
+2022-11-30 20:15:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 20:15:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_1" time="483.072" classname="Test Cases/BUCLES/Test_1" status="PASSED">
+         <system-out><![CDATA[2022-11-30 20:15:04 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_1: Test Cases/BUCLES/Test_1
+
+2022-11-30 20:15:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 20:15:04 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 20:15:04 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 20:15:04 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 20:15:04 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 20:15:04 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 20:15:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 20:17:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 20:17:37 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 20:17:39 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 20:17:39 - [TEST_STEP][PASSED] - for ([x = 1, x <= 2, (x++)]): null
+
+2022-11-30 20:17:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 20:17:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-30 20:17:50 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 20:17:50 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 20:17:50 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 20:17:50 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 20:17:50 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 20:17:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 20:20:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 20:20:24 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 20:20:28 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 20:20:28 - [TEST_STEP][PASSED] - RN = Math.random() * 10 - 1 + 1: null
+
+2022-11-30 20:20:28 - [TEST_STEP][PASSED] - print("Numero : " + RN + "----"): null
+
+2022-11-30 20:20:28 - [TEST_STEP][PASSED] - z = ["Demo1", "Demo2", "Demo3", "Demo4", "Demo5"]: null
+
+2022-11-30 20:20:28 - [TEST_STEP][PASSED] - rnd = new java.util.Random(): null
+
+2022-11-30 20:20:28 - [TEST_STEP][PASSED] - texto = z[rnd.nextInt(size)]: null
+
+2022-11-30 20:20:28 - [TEST_STEP][PASSED] - print(texto): null
+
+2022-11-30 20:20:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 20:20:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-30 20:20:36 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 20:20:36 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 20:20:36 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 20:20:36 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 20:20:36 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 20:20:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 20:22:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 20:22:59 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 20:23:02 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 20:23:02 - [TEST_STEP][PASSED] - RN = Math.random() * 10 - 1 + 1: null
+
+2022-11-30 20:23:02 - [TEST_STEP][PASSED] - print("Numero : " + RN + "----"): null
+
+2022-11-30 20:23:02 - [TEST_STEP][PASSED] - z = ["Demo1", "Demo2", "Demo3", "Demo4", "Demo5"]: null
+
+2022-11-30 20:23:02 - [TEST_STEP][PASSED] - rnd = new java.util.Random(): null
+
+2022-11-30 20:23:02 - [TEST_STEP][PASSED] - texto = z[rnd.nextInt(size)]: null
+
+2022-11-30 20:23:02 - [TEST_STEP][PASSED] - print(texto): null
+
+2022-11-30 20:23:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 20:23:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_2" time="155.828" classname="Test Cases/BUCLES/Test_2" status="PASSED">
+         <system-out><![CDATA[2022-11-30 20:23:07 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_2: Test Cases/BUCLES/Test_2
+
+2022-11-30 20:23:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 20:23:07 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 20:23:07 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 20:23:07 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 20:23:07 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 20:23:07 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 20:23:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 20:25:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 20:25:32 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 20:25:34 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 20:25:34 - [TEST_STEP][PASSED] - for ([x = 1, x <= 10, x = x + 2]): null
+
+2022-11-30 20:25:34 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 20:25:34 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 20:25:34 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 20:25:34 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 20:25:34 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 20:25:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 20:25:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_while" time="166.929" classname="Test Cases/BUCLES/Test_while" status="PASSED">
+         <system-out><![CDATA[2022-11-30 20:25:43 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_while: Test Cases/BUCLES/Test_while
+
+2022-11-30 20:25:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 20:25:43 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 20:25:43 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 20:25:43 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 20:25:43 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 20:25:43 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 20:25:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 20:28:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 20:28:17 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 20:28:22 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 20:28:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 20:28:25 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 20:28:25 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 20:28:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 20:28:26 - [TEST_STEP][PASSED] - x = 1: null
+
+2022-11-30 20:28:26 - [TEST_STEP][PASSED] - while (x <= 3): null
+
+2022-11-30 20:28:26 - [TEST_STEP][PASSED] - print("Hola " + x + "----------"): null
+
+2022-11-30 20:28:26 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 20:28:26 - [TEST_STEP][PASSED] - print("Hola " + x + "----------"): null
+
+2022-11-30 20:28:26 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 20:28:26 - [TEST_STEP][PASSED] - print("Hola " + x + "----------"): null
+
+2022-11-30 20:28:26 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 20:28:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 20:28:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_while2" time="162.72" classname="Test Cases/BUCLES/Test_while2" status="PASSED">
+         <system-out><![CDATA[2022-11-30 20:28:30 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_while2: Test Cases/BUCLES/Test_while2
+
+2022-11-30 20:28:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 20:28:30 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 20:28:30 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 20:28:30 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 20:28:30 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 20:28:30 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 20:28:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 20:31:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 20:31:00 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 20:31:03 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 20:31:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 20:31:04 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 20:31:04 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 20:31:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 20:31:05 - [TEST_STEP][PASSED] - x = 1: null
+
+2022-11-30 20:31:05 - [TEST_STEP][PASSED] - while (x <= 5): null
+
+2022-11-30 20:31:05 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 20:31:05 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 20:31:05 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 20:31:05 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 20:31:05 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 20:31:05 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 20:31:05 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 20:31:05 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 20:31:05 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 20:31:05 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 20:31:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 20:31:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Drive_excel/Drive_excel" time="194.674" classname="Test Cases/Drive_excel/Drive_excel" status="PASSED">
+         <system-out><![CDATA[2022-11-30 20:31:12 - [TEST_CASE][PASSED] - Test Cases/Drive_excel/Drive_excel: Test Cases/Drive_excel/Drive_excel
+
+2022-11-30 20:31:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 20:31:12 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-30 20:31:12 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-30 20:31:12 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-30 20:31:12 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=987205, tunnelId=, usingTunnel=false}']
+
+2022-11-30 20:31:12 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-30 20:31:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 20:33:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 20:33:58 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-11-30 20:34:01 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-11-30 20:34:01 - [TEST_STEP][PASSED] - waitForPageLoad(40): Wait for page load successfully
+
+2022-11-30 20:34:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 20:34:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 20:34:03 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 20:34:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName"), nombre): Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2022-11-30 20:34:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2022-11-30 20:34:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName"), apellido): Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2022-11-30 20:34:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2022-11-30 20:34:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail"), email): Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 20:34:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 20:34:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-11-30 20:34:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-11-30 20:34:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 20:34:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-30 18:55:16 - [TEST_SUITE][FAILED] - testCLoud: Test Cases/BUCLES/Test_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test_2.run(Test_2:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669845301196.run(TempTestSuite1669845301196.groovy:36)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NTK2299', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CRemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.<init>(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:543)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:327)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:252)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1628288938509.run(Script1628288938509.groovy:20)
+	... 13 more
+Caused by: java.net.SocketTimeoutException: timeout
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.newTimeoutException(Http2Stream.java:616)
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.exitAndThrowIfTimedOut(Http2Stream.java:624)
+	at okhttp3.internal.http2.Http2Stream.takeResponseHeaders(Http2Stream.java:146)
+	at okhttp3.internal.http2.Http2Codec.readResponseHeaders(Http2Codec.java:127)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.<init>(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:543)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:327)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:252)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test_2.run(Test_2:20)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2022-11-30 18:55:16 - [TEST_SUITE][FAILED] - testCLoud: Test Cases/BUCLES/Test_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test_2.run(Test_2:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669845301196.run(TempTestSuite1669845301196.groovy:36)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NTK2299', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CRemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.<init>(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:543)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:327)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:252)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1628288938509.run(Script1628288938509.groovy:20)
+	... 13 more
+Caused by: java.net.SocketTimeoutException: timeout
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.newTimeoutException(Http2Stream.java:616)
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.exitAndThrowIfTimedOut(Http2Stream.java:624)
+	at okhttp3.internal.http2.Http2Stream.takeResponseHeaders(Http2Stream.java:146)
+	at okhttp3.internal.http2.Http2Codec.readResponseHeaders(Http2Codec.java:127)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.<init>(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:543)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:327)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:252)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test_2.run(Test_2:20)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

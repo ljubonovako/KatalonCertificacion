@@ -1,0 +1,246 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testCLoud,Chrome 107.0.0.0,,,2022-11-30 11:00:17,2022-11-30 11:09:17,"8m - 59,545s",PASSED
+,,,,,,,
+Test Cases/Navegador/Navegador,Chrome 107.0.0.0,,,2022-11-30 11:00:18,2022-11-30 11:00:31,"13,552s",PASSED
+"openBrowser(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-30 11:00:18,2022-11-30 11:00:30,"11,680s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:00:30,2022-11-30 11:00:30,"0,191s",PASSED
+page_url = getUrl(),Chrome 107.0.0.0,,,2022-11-30 11:00:30,2022-11-30 11:00:30,"0,061s",PASSED
+print(page_url),Chrome 107.0.0.0,,,2022-11-30 11:00:30,2022-11-30 11:00:30,"0,006s",PASSED
+Titulo = getWindowTitle(),Chrome 107.0.0.0,,,2022-11-30 11:00:30,2022-11-30 11:00:30,"0,055s",PASSED
+"print(""titiulo de la pagina"" + Titulo)",Chrome 107.0.0.0,,,2022-11-30 11:00:30,2022-11-30 11:00:30,"0,002s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:00:30,2022-11-30 11:00:31,"0,908s",PASSED
+,,,,,,,
+Test Cases/Objecto_xpath/Caso_xpath,Chrome 107.0.0.0,,,2022-11-30 11:00:31,2022-11-30 11:00:52,"20,378s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:00:32,2022-11-30 11:00:33,"1,399s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-30 11:00:33,2022-11-30 11:00:45,"11,827s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:00:45,2022-11-30 11:00:45,"0,151s",PASSED
+"setText(findTestObject(""Objeto_xpath/Campo_nombre""), ""Ljubo"")",Chrome 107.0.0.0,,,2022-11-30 11:00:45,2022-11-30 11:00:47,"1,917s",PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-30 11:00:47,2022-11-30 11:00:50,"3,078s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:00:50,2022-11-30 11:00:52,"1,366s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Condicionar_titulo,Chrome 107.0.0.0,,,2022-11-30 11:00:52,2022-11-30 11:01:18,"26,059s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:00:52,2022-11-30 11:00:54,"1,503s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 107.0.0.0,,,2022-11-30 11:00:54,2022-11-30 11:01:03,"8,800s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:01:03,2022-11-30 11:01:03,"0,143s",PASSED
+waitForPageLoad(5),Chrome 107.0.0.0,,,2022-11-30 11:01:03,2022-11-30 11:01:03,"0,194s",PASSED
+"Existe = waitForElementVisible(findTestObject(""Condicionales/Texto_radio""), 3)",Chrome 107.0.0.0,,,2022-11-30 11:01:03,2022-11-30 11:01:09,"6,288s",PASSED
+print(Existe),Chrome 107.0.0.0,,,2022-11-30 11:01:09,2022-11-30 11:01:09,"0,000s",PASSED
+if (Existe == true),Chrome 107.0.0.0,,,2022-11-30 11:01:09,2022-11-30 11:01:09,"0,000s",PASSED
+else,Chrome 107.0.0.0,,,2022-11-30 11:01:09,2022-11-30 11:01:18,"8,537s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_1,Chrome 107.0.0.0,,,2022-11-30 11:01:18,2022-11-30 11:01:18,"0,596s",PASSED
+if (num == 10),Chrome 107.0.0.0,,,2022-11-30 11:01:18,2022-11-30 11:01:18,"0,001s",PASSED
+else,Chrome 107.0.0.0,,,2022-11-30 11:01:18,2022-11-30 11:01:18,"0,001s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_2,Chrome 107.0.0.0,,,2022-11-30 11:01:18,2022-11-30 11:01:19,"0,454s",PASSED
+if (num == 5),Chrome 107.0.0.0,,,2022-11-30 11:01:19,2022-11-30 11:01:19,"0,001s",PASSED
+if (num == 10),Chrome 107.0.0.0,,,2022-11-30 11:01:19,2022-11-30 11:01:19,"0,004s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_3,Chrome 107.0.0.0,,,2022-11-30 11:01:19,2022-11-30 11:01:19,"0,452s",PASSED
+"if (nombre == ""Juan"")",Chrome 107.0.0.0,,,2022-11-30 11:01:19,2022-11-30 11:01:19,"0,001s",PASSED
+"if (nombre == ""JUan"")",Chrome 107.0.0.0,,,2022-11-30 11:01:19,2022-11-30 11:01:19,"0,000s",PASSED
+"if (nombre == ""juan"")",Chrome 107.0.0.0,,,2022-11-30 11:01:19,2022-11-30 11:01:19,"0,001s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_4,Chrome 107.0.0.0,,,2022-11-30 11:01:19,2022-11-30 11:01:20,"0,485s",PASSED
+if (num <= 7),Chrome 107.0.0.0,,,2022-11-30 11:01:20,2022-11-30 11:01:20,"0,002s",PASSED
+if (num >= 8),Chrome 107.0.0.0,,,2022-11-30 11:01:20,2022-11-30 11:01:20,"0,000s",PASSED
+if (num != 5),Chrome 107.0.0.0,,,2022-11-30 11:01:20,2022-11-30 11:01:20,"0,000s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_edad,Chrome 107.0.0.0,,,2022-11-30 11:01:20,2022-11-30 11:01:20,"0,451s",PASSED
+if (edad >= 1 && edad <= 17),Chrome 107.0.0.0,,,2022-11-30 11:01:20,2022-11-30 11:01:20,"0,000s",PASSED
+else if (edad == 18),Chrome 107.0.0.0,,,2022-11-30 11:01:20,2022-11-30 11:01:20,"0,000s",PASSED
+else if (edad <= 0),Chrome 107.0.0.0,,,2022-11-30 11:01:20,2022-11-30 11:01:20,"0,001s",PASSED
+else if (edad == 120),Chrome 107.0.0.0,,,2022-11-30 11:01:20,2022-11-30 11:01:20,"0,001s",PASSED
+else,Chrome 107.0.0.0,,,2022-11-30 11:01:20,2022-11-30 11:01:20,"0,001s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_valor,Chrome 107.0.0.0,,,2022-11-30 11:01:20,2022-11-30 11:01:40,"20,062s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:01:21,2022-11-30 11:01:22,"1,569s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 107.0.0.0,,,2022-11-30 11:01:22,2022-11-30 11:01:31,"8,405s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:01:31,2022-11-30 11:01:31,"0,150s",PASSED
+waitForPageLoad(10),Chrome 107.0.0.0,,,2022-11-30 11:01:31,2022-11-30 11:01:31,"0,041s",PASSED
+"Existe = waitForElementVisible(findTestObject(""Condicionales/titulo1""), 5)",Chrome 107.0.0.0,,,2022-11-30 11:01:31,2022-11-30 11:01:40,"8,591s",PASSED
+if (Existe == true),Chrome 107.0.0.0,,,2022-11-30 11:01:40,2022-11-30 11:01:40,"0,001s",PASSED
+else,Chrome 107.0.0.0,,,2022-11-30 11:01:40,2022-11-30 11:01:40,"0,738s",PASSED
+,,,,,,,
+Test Cases/BUCLES/Reto_For,Chrome 107.0.0.0,,,2022-11-30 11:01:40,2022-11-30 11:02:10,"29,501s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:01:41,2022-11-30 11:01:42,"1,435s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-30 11:01:42,2022-11-30 11:01:51,"9,106s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:01:51,2022-11-30 11:01:51,"0,139s",PASSED
+waitForPageLoad(5),Chrome 107.0.0.0,,,2022-11-30 11:01:51,2022-11-30 11:01:51,"0,020s",PASSED
+"for ([x = 1, x <= 4, (x++)])",Chrome 107.0.0.0,,,2022-11-30 11:01:51,2022-11-30 11:02:09,"17,482s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:02:09,2022-11-30 11:02:10,"0,807s",PASSED
+,,,,,,,
+Test Cases/BUCLES/Reto_while,Chrome 107.0.0.0,,,2022-11-30 11:02:10,2022-11-30 11:02:44,"34,512s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:02:10,2022-11-30 11:02:12,"1,439s",PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 107.0.0.0,,,2022-11-30 11:02:12,2022-11-30 11:02:13,"1,587s",PASSED
+Bandera = 0,Chrome 107.0.0.0,,,2022-11-30 11:02:13,2022-11-30 11:02:13,"0,001s",PASSED
+while (Bandera != 1),Chrome 107.0.0.0,,,2022-11-30 11:02:13,2022-11-30 11:02:44,"30,935s",PASSED
+,,,,,,,
+Test Cases/BUCLES/Reto_while_solucion,Chrome 107.0.0.0,,,2022-11-30 11:02:44,2022-11-30 11:03:13,"28,316s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:02:45,2022-11-30 11:02:46,"1,505s",PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 107.0.0.0,,,2022-11-30 11:02:46,2022-11-30 11:02:48,"2,055s",PASSED
+Res = 0,Chrome 107.0.0.0,,,2022-11-30 11:02:48,2022-11-30 11:02:48,"0,000s",PASSED
+while (Res != 8),Chrome 107.0.0.0,,,2022-11-30 11:02:48,2022-11-30 11:03:13,"24,163s",PASSED
+,,,,,,,
+Test Cases/BUCLES/Test_1,Chrome 107.0.0.0,,,2022-11-30 11:03:13,2022-11-30 11:03:46,"32,859s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:03:13,2022-11-30 11:03:15,"1,733s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-30 11:03:15,2022-11-30 11:03:24,"9,136s",PASSED
+"for ([x = 1, x <= 2, (x++)])",Chrome 107.0.0.0,,,2022-11-30 11:03:24,2022-11-30 11:03:45,"20,751s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:03:45,2022-11-30 11:03:46,"0,712s",PASSED
+,,,,,,,
+Test Cases/BUCLES/Test_2,Chrome 107.0.0.0,,,2022-11-30 11:03:46,2022-11-30 11:04:00,"14,929s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:03:46,2022-11-30 11:03:48,"1,552s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-30 11:03:48,2022-11-30 11:04:00,"12,110s",PASSED
+"for ([x = 1, x <= 10, x = x + 2])",Chrome 107.0.0.0,,,2022-11-30 11:04:00,2022-11-30 11:04:00,"0,003s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:04:00,2022-11-30 11:04:00,"0,779s",PASSED
+,,,,,,,
+Test Cases/BUCLES/Test_while,Chrome 107.0.0.0,,,2022-11-30 11:04:00,2022-11-30 11:04:12,"11,785s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:04:01,2022-11-30 11:04:02,"1,487s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-30 11:04:02,2022-11-30 11:04:11,"8,890s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:04:11,2022-11-30 11:04:11,"0,137s",PASSED
+waitForPageLoad(5),Chrome 107.0.0.0,,,2022-11-30 11:04:11,2022-11-30 11:04:11,"0,020s",PASSED
+x = 1,Chrome 107.0.0.0,,,2022-11-30 11:04:11,2022-11-30 11:04:11,"0,000s",PASSED
+while (x <= 3),Chrome 107.0.0.0,,,2022-11-30 11:04:11,2022-11-30 11:04:11,"0,005s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:04:11,2022-11-30 11:04:12,"0,782s",PASSED
+,,,,,,,
+Test Cases/BUCLES/Test_while2,Chrome 107.0.0.0,,,2022-11-30 11:04:12,2022-11-30 11:04:26,"13,807s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:04:13,2022-11-30 11:04:14,"1,514s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-30 11:04:14,2022-11-30 11:04:25,"10,943s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:04:25,2022-11-30 11:04:25,"0,139s",PASSED
+waitForPageLoad(5),Chrome 107.0.0.0,,,2022-11-30 11:04:25,2022-11-30 11:04:25,"0,022s",PASSED
+x = 1,Chrome 107.0.0.0,,,2022-11-30 11:04:25,2022-11-30 11:04:25,"0,001s",PASSED
+while (x <= 5),Chrome 107.0.0.0,,,2022-11-30 11:04:25,2022-11-30 11:04:25,"0,010s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:04:25,2022-11-30 11:04:26,"0,734s",PASSED
+,,,,,,,
+Test Cases/Drive_excel/Drive_excel,Chrome 107.0.0.0,,,2022-11-30 11:04:26,2022-11-30 11:04:44,"18,169s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:04:27,2022-11-30 11:04:28,"1,507s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 107.0.0.0,,,2022-11-30 11:04:28,2022-11-30 11:04:38,"9,571s",PASSED
+waitForPageLoad(40),Chrome 107.0.0.0,,,2022-11-30 11:04:38,2022-11-30 11:04:38,"0,027s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:04:38,2022-11-30 11:04:38,"0,137s",PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 107.0.0.0,,,2022-11-30 11:04:38,2022-11-30 11:04:40,"1,663s",PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 107.0.0.0,,,2022-11-30 11:04:40,2022-11-30 11:04:41,"1,030s",PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 107.0.0.0,,,2022-11-30 11:04:41,2022-11-30 11:04:41,"0,881s",PASSED
+delay(2),Chrome 107.0.0.0,,,2022-11-30 11:04:41,2022-11-30 11:04:43,"2,013s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:04:43,2022-11-30 11:04:44,"0,831s",PASSED
+,,,,,,,
+Test Cases/Navegador/Navegador,Chrome 107.0.0.0,,,2022-11-30 11:04:44,2022-11-30 11:04:55,"10,889s",PASSED
+"openBrowser(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-30 11:04:44,2022-11-30 11:04:54,"10,012s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:04:54,2022-11-30 11:04:54,"0,137s",PASSED
+page_url = getUrl(),Chrome 107.0.0.0,,,2022-11-30 11:04:54,2022-11-30 11:04:54,"0,015s",PASSED
+print(page_url),Chrome 107.0.0.0,,,2022-11-30 11:04:54,2022-11-30 11:04:54,"0,000s",PASSED
+Titulo = getWindowTitle(),Chrome 107.0.0.0,,,2022-11-30 11:04:54,2022-11-30 11:04:54,"0,013s",PASSED
+"print(""titiulo de la pagina"" + Titulo)",Chrome 107.0.0.0,,,2022-11-30 11:04:54,2022-11-30 11:04:54,"0,000s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:04:54,2022-11-30 11:04:55,"0,699s",PASSED
+,,,,,,,
+Test Cases/Objecto_xpath/Caso_xpath,Chrome 107.0.0.0,,,2022-11-30 11:04:55,2022-11-30 11:05:11,"15,946s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:04:55,2022-11-30 11:04:57,"1,437s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-30 11:04:57,2022-11-30 11:05:05,"8,784s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:05:05,2022-11-30 11:05:06,"0,145s",PASSED
+"setText(findTestObject(""Objeto_xpath/Campo_nombre""), ""Ljubo"")",Chrome 107.0.0.0,,,2022-11-30 11:05:06,2022-11-30 11:05:07,"1,806s",PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-30 11:05:07,2022-11-30 11:05:10,"3,008s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:05:10,2022-11-30 11:05:11,"0,746s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Condicionar_titulo,Chrome 107.0.0.0,,,2022-11-30 11:05:11,2022-11-30 11:05:37,"25,559s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:05:11,2022-11-30 11:05:13,"1,483s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 107.0.0.0,,,2022-11-30 11:05:13,2022-11-30 11:05:22,"9,031s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:05:22,2022-11-30 11:05:22,"0,155s",PASSED
+waitForPageLoad(5),Chrome 107.0.0.0,,,2022-11-30 11:05:22,2022-11-30 11:05:22,"0,019s",PASSED
+"Existe = waitForElementVisible(findTestObject(""Condicionales/Texto_radio""), 3)",Chrome 107.0.0.0,,,2022-11-30 11:05:22,2022-11-30 11:05:28,"6,364s",PASSED
+print(Existe),Chrome 107.0.0.0,,,2022-11-30 11:05:28,2022-11-30 11:05:28,"0,001s",PASSED
+if (Existe == true),Chrome 107.0.0.0,,,2022-11-30 11:05:28,2022-11-30 11:05:28,"0,001s",PASSED
+else,Chrome 107.0.0.0,,,2022-11-30 11:05:28,2022-11-30 11:05:37,"8,482s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_1,Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,045s",PASSED
+if (num == 10),Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,000s",PASSED
+else,Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,000s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_2,Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,024s",PASSED
+if (num == 5),Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,001s",PASSED
+if (num == 10),Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,001s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_3,Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,036s",PASSED
+"if (nombre == ""Juan"")",Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,000s",PASSED
+"if (nombre == ""JUan"")",Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,001s",PASSED
+"if (nombre == ""juan"")",Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,001s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_4,Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,069s",PASSED
+if (num <= 7),Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,002s",PASSED
+if (num >= 8),Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,000s",PASSED
+if (num != 5),Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,000s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_edad,Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,039s",PASSED
+if (edad >= 1 && edad <= 17),Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,001s",PASSED
+else if (edad == 18),Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,001s",PASSED
+else if (edad <= 0),Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,000s",PASSED
+else if (edad == 120),Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,000s",PASSED
+else,Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:37,"0,003s",PASSED
+,,,,,,,
+Test Cases/Condicionales_If/Test_valor,Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:57,"19,555s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:05:37,2022-11-30 11:05:38,"1,499s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 107.0.0.0,,,2022-11-30 11:05:38,2022-11-30 11:05:47,"8,771s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:05:47,2022-11-30 11:05:47,"0,145s",PASSED
+waitForPageLoad(10),Chrome 107.0.0.0,,,2022-11-30 11:05:47,2022-11-30 11:05:47,"0,020s",PASSED
+"Existe = waitForElementVisible(findTestObject(""Condicionales/titulo1""), 5)",Chrome 107.0.0.0,,,2022-11-30 11:05:47,2022-11-30 11:05:56,"8,371s",PASSED
+if (Existe == true),Chrome 107.0.0.0,,,2022-11-30 11:05:56,2022-11-30 11:05:56,"0,000s",PASSED
+else,Chrome 107.0.0.0,,,2022-11-30 11:05:56,2022-11-30 11:05:57,"0,740s",PASSED
+,,,,,,,
+Test Cases/BUCLES/Reto_For,Chrome 107.0.0.0,,,2022-11-30 11:05:57,2022-11-30 11:06:27,"30,716s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:05:57,2022-11-30 11:05:58,"1,471s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-30 11:05:58,2022-11-30 11:06:08,"10,089s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:06:08,2022-11-30 11:06:08,"0,160s",PASSED
+waitForPageLoad(5),Chrome 107.0.0.0,,,2022-11-30 11:06:08,2022-11-30 11:06:08,"0,029s",PASSED
+"for ([x = 1, x <= 4, (x++)])",Chrome 107.0.0.0,,,2022-11-30 11:06:08,2022-11-30 11:06:27,"18,222s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:06:27,2022-11-30 11:06:27,"0,724s",PASSED
+,,,,,,,
+Test Cases/BUCLES/Reto_while,Chrome 107.0.0.0,,,2022-11-30 11:06:27,2022-11-30 11:07:30,"1m - 2,361s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:06:27,2022-11-30 11:06:29,"1,560s",PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 107.0.0.0,,,2022-11-30 11:06:29,2022-11-30 11:06:31,"2,267s",PASSED
+Bandera = 0,Chrome 107.0.0.0,,,2022-11-30 11:06:31,2022-11-30 11:06:31,"0,001s",PASSED
+while (Bandera != 1),Chrome 107.0.0.0,,,2022-11-30 11:06:31,2022-11-30 11:07:30,"58,514s",PASSED
+,,,,,,,
+Test Cases/BUCLES/Reto_while_solucion,Chrome 107.0.0.0,,,2022-11-30 11:07:30,2022-11-30 11:07:51,"21,146s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:07:30,2022-11-30 11:07:31,"1,452s",PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 107.0.0.0,,,2022-11-30 11:07:31,2022-11-30 11:07:34,"2,792s",PASSED
+Res = 0,Chrome 107.0.0.0,,,2022-11-30 11:07:34,2022-11-30 11:07:34,"0,000s",PASSED
+while (Res != 8),Chrome 107.0.0.0,,,2022-11-30 11:07:34,2022-11-30 11:07:51,"16,893s",PASSED
+,,,,,,,
+Test Cases/BUCLES/Test_1,Chrome 107.0.0.0,,,2022-11-30 11:07:51,2022-11-30 11:08:28,"36,947s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:07:51,2022-11-30 11:07:52,"1,556s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-30 11:07:52,2022-11-30 11:08:03,"10,541s",PASSED
+"for ([x = 1, x <= 2, (x++)])",Chrome 107.0.0.0,,,2022-11-30 11:08:03,2022-11-30 11:08:27,"24,064s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:08:27,2022-11-30 11:08:28,"0,734s",PASSED
+,,,,,,,
+Test Cases/BUCLES/Test_2,Chrome 107.0.0.0,,,2022-11-30 11:08:28,2022-11-30 11:08:36,"8,386s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:08:28,2022-11-30 11:08:29,"1,377s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-30 11:08:29,2022-11-30 11:08:35,"6,171s",PASSED
+"for ([x = 1, x <= 10, x = x + 2])",Chrome 107.0.0.0,,,2022-11-30 11:08:35,2022-11-30 11:08:35,"0,002s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:08:35,2022-11-30 11:08:36,"0,825s",PASSED
+,,,,,,,
+Test Cases/BUCLES/Test_while,Chrome 107.0.0.0,,,2022-11-30 11:08:36,2022-11-30 11:08:49,"12,419s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:08:36,2022-11-30 11:08:38,"1,414s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-30 11:08:38,2022-11-30 11:08:48,"10,093s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:08:48,2022-11-30 11:08:48,"0,147s",PASSED
+waitForPageLoad(5),Chrome 107.0.0.0,,,2022-11-30 11:08:48,2022-11-30 11:08:48,"0,020s",PASSED
+x = 1,Chrome 107.0.0.0,,,2022-11-30 11:08:48,2022-11-30 11:08:48,"0,000s",PASSED
+while (x <= 3),Chrome 107.0.0.0,,,2022-11-30 11:08:48,2022-11-30 11:08:48,"0,003s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:08:48,2022-11-30 11:08:49,"0,731s",PASSED
+,,,,,,,
+Test Cases/BUCLES/Test_while2,Chrome 107.0.0.0,,,2022-11-30 11:08:49,2022-11-30 11:09:00,"10,964s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:08:49,2022-11-30 11:08:50,"1,552s",PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 107.0.0.0,,,2022-11-30 11:08:50,2022-11-30 11:08:59,"8,513s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:08:59,2022-11-30 11:08:59,"0,140s",PASSED
+waitForPageLoad(5),Chrome 107.0.0.0,,,2022-11-30 11:08:59,2022-11-30 11:08:59,"0,020s",PASSED
+x = 1,Chrome 107.0.0.0,,,2022-11-30 11:08:59,2022-11-30 11:08:59,"0,000s",PASSED
+while (x <= 5),Chrome 107.0.0.0,,,2022-11-30 11:08:59,2022-11-30 11:08:59,"0,003s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:08:59,2022-11-30 11:09:00,"0,713s",PASSED
+,,,,,,,
+Test Cases/Drive_excel/Drive_excel,Chrome 107.0.0.0,,,2022-11-30 11:09:00,2022-11-30 11:09:17,"17,070s",PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-30 11:09:00,2022-11-30 11:09:01,"1,419s",PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 107.0.0.0,,,2022-11-30 11:09:01,2022-11-30 11:09:09,"8,383s",PASSED
+waitForPageLoad(40),Chrome 107.0.0.0,,,2022-11-30 11:09:09,2022-11-30 11:09:09,"0,025s",PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-30 11:09:09,2022-11-30 11:09:10,"0,136s",PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 107.0.0.0,,,2022-11-30 11:09:10,2022-11-30 11:09:12,"2,153s",PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 107.0.0.0,,,2022-11-30 11:09:12,2022-11-30 11:09:13,"0,906s",PASSED
+"setText(findTestObject(""Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 107.0.0.0,,,2022-11-30 11:09:13,2022-11-30 11:09:13,"0,779s",PASSED
+delay(2),Chrome 107.0.0.0,,,2022-11-30 11:09:13,2022-11-30 11:09:15,"2,016s",PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-30 11:09:15,2022-11-30 11:09:17,"1,187s",PASSED

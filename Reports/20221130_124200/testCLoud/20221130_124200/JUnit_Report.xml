@@ -1,0 +1,1813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testCLoud" time="1931.072" tests="34" failures="0" errors="0">
+   <testsuite name="testCLoud" tests="34" failures="0" errors="0" time="1931.072" skipped="0" timestamp="2022-11-30 12:42:12" hostname="admin - 192.168.0.13" id="Test Suites/testCLoud">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221130_124200\\testCLoud\\20221130_124200"/>
+         <property name="logFiles" value="C:\\Users\\admin\\git\\KatalonCertificacion\\Reports\\20221130_124200\\testCLoud\\20221130_124200\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - 192.168.0.13"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.13"/>
+         <property name="sessionId" value="b27158c4098b3f5fcce14265f4c1b90f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navegador/Navegador" time="19.85" classname="Test Cases/Navegador/Navegador" status="PASSED">
+         <system-out><![CDATA[2022-11-30 12:42:13 - [TEST_CASE][PASSED] - Test Cases/Navegador/Navegador: Test Cases/Navegador/Navegador
+
+2022-11-30 12:42:14 - [TEST_STEP][PASSED] - openBrowser("https://demoqa.com/text-box"): Browser is opened with url: 'https://demoqa.com/text-box'
+
+2022-11-30 12:42:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 12:42:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 12:42:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoqa.com/text-box'
+
+2022-11-30 12:42:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 12:42:32 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 12:42:32 - [TEST_STEP][PASSED] - page_url = getUrl(): Current window's url is: 'https://demoqa.com/text-box'
+
+2022-11-30 12:42:32 - [MESSAGE][PASSED] - Current window's url is: 'https://demoqa.com/text-box'
+
+2022-11-30 12:42:32 - [TEST_STEP][PASSED] - print(page_url): null
+
+2022-11-30 12:42:32 - [TEST_STEP][PASSED] - Titulo = getWindowTitle(): Current window's title is: 'ToolsQA'
+
+2022-11-30 12:42:32 - [MESSAGE][PASSED] - Current window's title is: 'ToolsQA'
+
+2022-11-30 12:42:32 - [TEST_STEP][PASSED] - print("titiulo de la pagina" + Titulo): null
+
+2022-11-30 12:42:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 12:42:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Objecto_xpath/Caso_xpath" time="226.88" classname="Test Cases/Objecto_xpath/Caso_xpath" status="PASSED">
+         <system-out><![CDATA[2022-11-30 12:42:33 - [TEST_CASE][PASSED] - Test Cases/Objecto_xpath/Caso_xpath: Test Cases/Objecto_xpath/Caso_xpath
+
+2022-11-30 12:42:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 12:42:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 12:42:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 12:42:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 12:42:35 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 12:46:14 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 12:46:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 12:46:15 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 12:46:15 - [TEST_STEP][PASSED] - setText(findTestObject("Objeto_xpath/Campo_nombre"), "Ljubo"): Text 'Ljubo' is set on object 'Object Repository/Objeto_xpath/Campo_nombre'
+
+2022-11-30 12:46:16 - [MESSAGE][PASSED] - Text 'Ljubo' is set on object 'Object Repository/Objeto_xpath/Campo_nombre'
+
+2022-11-30 12:46:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-30 12:46:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-30 12:46:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 12:46:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Condicionar_titulo" time="108.916" classname="Test Cases/Condicionales_If/Condicionar_titulo" status="PASSED">
+         <system-out><![CDATA[2022-11-30 12:46:20 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Condicionar_titulo: Test Cases/Condicionales_If/Condicionar_titulo
+
+2022-11-30 12:46:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 12:46:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 12:46:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 12:46:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 12:46:22 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 12:47:47 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 12:47:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 12:47:47 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 12:47:47 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 12:47:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 12:47:47 - [TEST_STEP][PASSED] - Existe = waitForElementVisible(findTestObject("Condicionales/Texto_radio"), 3): Web element with id: 'Object Repository/Condicionales/Texto_radio' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 12:47:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='main-header'][contains(.,'Radio Button')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 12:47:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Condicionales/Texto_radio'. Try using Self-healing.
+
+2022-11-30 12:47:52 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-11-30 12:47:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 12:47:54 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-11-30 12:47:54 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Condicionales/Texto_radio' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 12:47:54 - [TEST_STEP][PASSED] - print(Existe): null
+
+2022-11-30 12:47:54 - [TEST_STEP][PASSED] - if (Existe == true): null
+
+2022-11-30 12:47:54 - [TEST_STEP][PASSED] - else: Browser is closed
+
+2022-11-30 12:47:54 - [TEST_STEP][PASSED] - print("-----  Error no esta el elemento de texto radio ------"): null
+
+2022-11-30 12:47:54 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/radio-button"): Navigate to 'https://demoqa.com/radio-button' successfully
+
+2022-11-30 12:48:03 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/radio-button' successfully
+
+2022-11-30 12:48:03 - [TEST_STEP][PASSED] - click(findTestObject("Condicionales/Objeto_yes")): Object: 'Object Repository/Condicionales/Objeto_yes' is clicked on
+
+2022-11-30 12:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Condicionales/Objeto_yes' is clicked on
+
+2022-11-30 12:48:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-11-30 12:48:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-11-30 12:48:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 12:48:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_1" time="0.64" classname="Test Cases/Condicionales_If/Test_1" status="PASSED">
+         <system-out><![CDATA[2022-11-30 12:48:09 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_1: Test Cases/Condicionales_If/Test_1
+
+2022-11-30 12:48:09 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-30 12:48:09 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 12:48:09 - [TEST_STEP][PASSED] - print("El numero no es un 10 es el numero:  " + num + "#####"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_2" time="0.572" classname="Test Cases/Condicionales_If/Test_2" status="PASSED">
+         <system-out><![CDATA[2022-11-30 12:48:09 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_2: Test Cases/Condicionales_If/Test_2
+
+2022-11-30 12:48:10 - [TEST_STEP][PASSED] - if (num == 5): null
+
+2022-11-30 12:48:10 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-30 12:48:10 - [TEST_STEP][PASSED] - println("El valor de la variables es un: 10"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_3" time="0.472" classname="Test Cases/Condicionales_If/Test_3" status="PASSED">
+         <system-out><![CDATA[2022-11-30 12:48:10 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_3: Test Cases/Condicionales_If/Test_3
+
+2022-11-30 12:48:10 - [TEST_STEP][PASSED] - if (nombre == "Juan"): null
+
+2022-11-30 12:48:10 - [TEST_STEP][PASSED] - if (nombre == "JUan"): null
+
+2022-11-30 12:48:10 - [TEST_STEP][PASSED] - if (nombre == "juan"): null
+
+2022-11-30 12:48:10 - [TEST_STEP][PASSED] - println("Tu nombre es juan"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_4" time="0.515" classname="Test Cases/Condicionales_If/Test_4" status="PASSED">
+         <system-out><![CDATA[2022-11-30 12:48:10 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_4: Test Cases/Condicionales_If/Test_4
+
+2022-11-30 12:48:11 - [TEST_STEP][PASSED] - if (num <= 7): null
+
+2022-11-30 12:48:11 - [TEST_STEP][PASSED] - println("El numero es menor ó igual que 5"): null
+
+2022-11-30 12:48:11 - [TEST_STEP][PASSED] - if (num >= 8): null
+
+2022-11-30 12:48:11 - [TEST_STEP][PASSED] - if (num != 5): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_edad" time="0.594" classname="Test Cases/Condicionales_If/Test_edad" status="PASSED">
+         <system-out><![CDATA[2022-11-30 12:48:11 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_edad: Test Cases/Condicionales_If/Test_edad
+
+2022-11-30 12:48:11 - [TEST_STEP][PASSED] - if (edad >= 1 && edad <= 17): null
+
+2022-11-30 12:48:11 - [TEST_STEP][PASSED] - else if (edad == 18): null
+
+2022-11-30 12:48:11 - [TEST_STEP][PASSED] - else if (edad <= 0): null
+
+2022-11-30 12:48:11 - [TEST_STEP][PASSED] - else if (edad == 120): null
+
+2022-11-30 12:48:11 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 12:48:11 - [TEST_STEP][PASSED] - print("No se cumple ninguna de las opciones"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_valor" time="109.762" classname="Test Cases/Condicionales_If/Test_valor" status="PASSED">
+         <system-out><![CDATA[2022-11-30 12:48:11 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_valor: Test Cases/Condicionales_If/Test_valor
+
+2022-11-30 12:48:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 12:48:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 12:48:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 12:48:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 12:48:14 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 12:49:51 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 12:49:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 12:49:51 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 12:49:51 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2022-11-30 12:49:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 12:49:51 - [TEST_STEP][PASSED] - Existe = waitForElementVisible(findTestObject("Condicionales/titulo1"), 5): Web element with id: 'Object Repository/Condicionales/titulo1' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 12:49:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='main-header'][contains(.,'Radio Button')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 12:49:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Condicionales/titulo1'. Try using Self-healing.
+
+2022-11-30 12:49:59 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-11-30 12:50:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 12:50:01 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-11-30 12:50:01 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Condicionales/titulo1' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 12:50:01 - [TEST_STEP][PASSED] - if (Existe == true): null
+
+2022-11-30 12:50:01 - [TEST_STEP][PASSED] - else: Browser is closed
+
+2022-11-30 12:50:01 - [TEST_STEP][PASSED] - print("No estas en la página correcta"): null
+
+2022-11-30 12:50:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 12:50:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Reto_For" time="84.191" classname="Test Cases/BUCLES/Reto_For" status="PASSED">
+         <system-out><![CDATA[2022-11-30 12:50:01 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_For: Test Cases/BUCLES/Reto_For
+
+2022-11-30 12:50:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 12:50:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 12:50:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 12:50:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 12:50:03 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 12:51:07 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 12:51:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 12:51:07 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 12:51:07 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 12:51:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 12:51:07 - [TEST_STEP][PASSED] - for ([x = 1, x <= 4, (x++)]): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 12:51:07 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 12:51:07 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 12:51:07 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 12:51:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 12:51:08 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 12:51:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 12:51:09 - [MESSAGE][PASSED] - Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 12:51:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 12:51:10 - [MESSAGE][PASSED] - Text 'Dirección#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 12:51:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 12:51:11 - [MESSAGE][PASSED] - Text 'Dirección dos#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 12:51:11 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 12:51:11 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 12:51:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 12:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 12:51:12 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 12:51:12 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 12:51:12 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 12:51:12 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 12:51:12 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 12:51:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Erika' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 12:51:13 - [MESSAGE][PASSED] - Text 'Erika' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 12:51:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Erika@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 12:51:14 - [MESSAGE][PASSED] - Text 'Erika@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 12:51:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 12:51:15 - [MESSAGE][PASSED] - Text 'Dirección#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 12:51:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 12:51:16 - [MESSAGE][PASSED] - Text 'Dirección dos#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 12:51:16 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 12:51:16 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 12:51:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 12:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 12:51:16 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 12:51:16 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 12:51:16 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 12:51:16 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 12:51:16 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 12:51:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Erika' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 12:51:17 - [MESSAGE][PASSED] - Text 'Erika' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 12:51:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Erika@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 12:51:18 - [MESSAGE][PASSED] - Text 'Erika@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 12:51:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 12:51:19 - [MESSAGE][PASSED] - Text 'Dirección#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 12:51:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 12:51:20 - [MESSAGE][PASSED] - Text 'Dirección dos#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 12:51:20 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 12:51:20 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 12:51:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 12:51:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 12:51:20 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 12:51:20 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 12:51:20 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 12:51:20 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 12:51:20 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 12:51:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 12:51:21 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 12:51:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 12:51:22 - [MESSAGE][PASSED] - Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 12:51:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 12:51:23 - [MESSAGE][PASSED] - Text 'Dirección#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 12:51:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 12:51:24 - [MESSAGE][PASSED] - Text 'Dirección dos#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 12:51:24 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 12:51:24 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 12:51:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 12:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 12:51:25 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 12:51:25 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 12:51:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 12:51:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Reto_while" time="100.084" classname="Test Cases/BUCLES/Reto_while" status="PASSED">
+         <system-out><![CDATA[2022-11-30 12:51:25 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_while: Test Cases/BUCLES/Reto_while
+
+2022-11-30 12:51:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 12:51:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 12:51:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 12:51:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 12:51:28 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 12:51:31 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 12:51:31 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-30 12:51:31 - [TEST_STEP][PASSED] - while (Bandera != 1): null
+
+2022-11-30 12:51:31 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:51:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+2' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:51:33 - [MESSAGE][PASSED] - Text '5+2' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:51:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:51:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:51:43 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '7'
+
+2022-11-30 12:51:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '7'
+
+2022-11-30 12:51:44 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2022-11-30 12:51:44 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 12:51:44 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-30 12:51:44 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2022-11-30 12:51:44 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:51:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:51:45 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:51:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:51:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:51:56 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2022-11-30 12:51:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2022-11-30 12:51:56 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2022-11-30 12:51:56 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 12:51:56 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-30 12:51:56 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2022-11-30 12:51:56 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:51:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:51:57 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:51:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:04 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2022-11-30 12:52:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2022-11-30 12:52:05 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2022-11-30 12:52:05 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 12:52:05 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-30 12:52:05 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2022-11-30 12:52:05 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:52:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+2' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:05 - [MESSAGE][PASSED] - Text '5+2' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:12 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:12 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '7'
+
+2022-11-30 12:52:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '7'
+
+2022-11-30 12:52:13 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2022-11-30 12:52:13 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 12:52:13 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-30 12:52:13 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2022-11-30 12:52:13 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:52:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:13 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:21 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2022-11-30 12:52:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2022-11-30 12:52:21 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2022-11-30 12:52:21 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 12:52:21 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-30 12:52:21 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2022-11-30 12:52:21 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:52:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:22 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:28 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2022-11-30 12:52:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2022-11-30 12:52:29 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2022-11-30 12:52:29 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 12:52:29 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-30 12:52:29 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2022-11-30 12:52:29 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:52:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:30 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:37 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2022-11-30 12:52:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2022-11-30 12:52:38 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2022-11-30 12:52:38 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 12:52:38 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-30 12:52:38 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2022-11-30 12:52:38 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:52:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:39 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:44 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2022-11-30 12:52:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2022-11-30 12:52:45 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2022-11-30 12:52:45 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 12:52:45 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-30 12:52:45 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2022-11-30 12:52:45 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:52:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:46 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:54 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2022-11-30 12:52:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '9'
+
+2022-11-30 12:52:55 - [TEST_STEP][PASSED] - if (Resultado == "8"): null
+
+2022-11-30 12:52:55 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 12:52:55 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-30 12:52:55 - [TEST_STEP][PASSED] - print(Bandera + "------"): null
+
+2022-11-30 12:52:55 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:52:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+3' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:56 - [MESSAGE][PASSED] - Text '5+3' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:52:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:53:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 12:53:04 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '8'
+
+2022-11-30 12:53:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '8'
+
+2022-11-30 12:53:05 - [TEST_STEP][PASSED] - if (Resultado == "8"): Browser is closed
+
+2022-11-30 12:53:05 - [TEST_STEP][PASSED] - Bandera = 1: null
+
+2022-11-30 12:53:05 - [TEST_STEP][PASSED] - print("Listo termina"): null
+
+2022-11-30 12:53:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 12:53:06 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-30 12:53:06 - [TEST_STEP][PASSED] - print(Bandera + "------"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Reto_while_solucion" time="82.757" classname="Test Cases/BUCLES/Reto_while_solucion" status="PASSED">
+         <system-out><![CDATA[2022-11-30 12:53:06 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_while_solucion: Test Cases/BUCLES/Reto_while_solucion
+
+2022-11-30 12:53:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 12:53:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 12:53:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 12:53:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 12:53:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 12:53:11 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 12:53:11 - [TEST_STEP][PASSED] - Res = 0: null
+
+2022-11-30 12:53:11 - [TEST_STEP][PASSED] - while (Res != 8): Browser is closed
+
+2022-11-30 12:53:11 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:53:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:53:15 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:53:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:53:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:53:29 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '9'
+
+2022-11-30 12:53:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '9'
+
+2022-11-30 12:53:31 - [TEST_STEP][PASSED] - if (Res == 8): null
+
+2022-11-30 12:53:31 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:53:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:53:35 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:53:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:53:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:53:40 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '9'
+
+2022-11-30 12:53:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '9'
+
+2022-11-30 12:53:42 - [TEST_STEP][PASSED] - if (Res == 8): null
+
+2022-11-30 12:53:42 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:53:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:53:46 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:53:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:53:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:53:51 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '9'
+
+2022-11-30 12:53:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '9'
+
+2022-11-30 12:53:53 - [TEST_STEP][PASSED] - if (Res == 8): null
+
+2022-11-30 12:53:53 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:53:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+2' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:53:57 - [MESSAGE][PASSED] - Text '5+2' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:53:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:54:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:54:04 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '7'
+
+2022-11-30 12:54:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '7'
+
+2022-11-30 12:54:06 - [TEST_STEP][PASSED] - if (Res == 8): null
+
+2022-11-30 12:54:06 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:54:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+1' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:54:10 - [MESSAGE][PASSED] - Text '5+1' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:54:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:54:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:54:13 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '6'
+
+2022-11-30 12:54:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '6'
+
+2022-11-30 12:54:16 - [TEST_STEP][PASSED] - if (Res == 8): null
+
+2022-11-30 12:54:16 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 12:54:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+3' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:54:20 - [MESSAGE][PASSED] - Text '5+3' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:54:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:54:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 12:54:22 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '8'
+
+2022-11-30 12:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '8'
+
+2022-11-30 12:54:28 - [TEST_STEP][PASSED] - if (Res == 8): Browser is closed
+
+2022-11-30 12:54:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 12:54:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_1" time="325.077" classname="Test Cases/BUCLES/Test_1" status="PASSED">
+         <system-out><![CDATA[2022-11-30 12:54:28 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_1: Test Cases/BUCLES/Test_1
+
+2022-11-30 12:54:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 12:54:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 12:54:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 12:54:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 12:54:31 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 12:55:19 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 12:55:19 - [TEST_STEP][PASSED] - for ([x = 1, x <= 2, (x++)]): null
+
+2022-11-30 12:55:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 12:55:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-30 12:55:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 12:55:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 12:55:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 12:55:21 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 12:57:43 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 12:57:43 - [TEST_STEP][PASSED] - RN = Math.random() * 10 - 1 + 1: null
+
+2022-11-30 12:57:43 - [TEST_STEP][PASSED] - print("Numero : " + RN + "----"): null
+
+2022-11-30 12:57:43 - [TEST_STEP][PASSED] - z = ["Demo1", "Demo2", "Demo3", "Demo4", "Demo5"]: null
+
+2022-11-30 12:57:43 - [TEST_STEP][PASSED] - rnd = new java.util.Random(): null
+
+2022-11-30 12:57:43 - [TEST_STEP][PASSED] - texto = z[rnd.nextInt(size)]: null
+
+2022-11-30 12:57:44 - [TEST_STEP][PASSED] - print(texto): null
+
+2022-11-30 12:57:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 12:57:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-30 12:57:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 12:57:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 12:57:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 12:57:46 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 12:59:53 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 12:59:53 - [TEST_STEP][PASSED] - RN = Math.random() * 10 - 1 + 1: null
+
+2022-11-30 12:59:53 - [TEST_STEP][PASSED] - print("Numero : " + RN + "----"): null
+
+2022-11-30 12:59:53 - [TEST_STEP][PASSED] - z = ["Demo1", "Demo2", "Demo3", "Demo4", "Demo5"]: null
+
+2022-11-30 12:59:53 - [TEST_STEP][PASSED] - rnd = new java.util.Random(): null
+
+2022-11-30 12:59:53 - [TEST_STEP][PASSED] - texto = z[rnd.nextInt(size)]: null
+
+2022-11-30 12:59:53 - [TEST_STEP][PASSED] - print(texto): null
+
+2022-11-30 12:59:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 12:59:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_2" time="36.793" classname="Test Cases/BUCLES/Test_2" status="PASSED">
+         <system-out><![CDATA[2022-11-30 12:59:53 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_2: Test Cases/BUCLES/Test_2
+
+2022-11-30 12:59:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 12:59:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 12:59:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 12:59:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 12:59:56 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:00:29 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:00:29 - [TEST_STEP][PASSED] - for ([x = 1, x <= 10, x = x + 2]): null
+
+2022-11-30 13:00:29 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 13:00:29 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 13:00:29 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 13:00:29 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 13:00:29 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 13:00:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:00:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_while" time="42.441" classname="Test Cases/BUCLES/Test_while" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:00:30 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_while: Test Cases/BUCLES/Test_while
+
+2022-11-30 13:00:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:00:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:00:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:00:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:00:32 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:01:12 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:01:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 13:01:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 13:01:12 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 13:01:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 13:01:12 - [TEST_STEP][PASSED] - x = 1: null
+
+2022-11-30 13:01:12 - [TEST_STEP][PASSED] - while (x <= 3): null
+
+2022-11-30 13:01:12 - [TEST_STEP][PASSED] - print("Hola " + x + "----------"): null
+
+2022-11-30 13:01:12 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:01:12 - [TEST_STEP][PASSED] - print("Hola " + x + "----------"): null
+
+2022-11-30 13:01:12 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:01:12 - [TEST_STEP][PASSED] - print("Hola " + x + "----------"): null
+
+2022-11-30 13:01:12 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:01:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:01:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_while2" time="122.986" classname="Test Cases/BUCLES/Test_while2" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:01:13 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_while2: Test Cases/BUCLES/Test_while2
+
+2022-11-30 13:01:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:01:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:01:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:01:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:01:15 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:03:15 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:03:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 13:03:15 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 13:03:15 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 13:03:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 13:03:15 - [TEST_STEP][PASSED] - x = 1: null
+
+2022-11-30 13:03:15 - [TEST_STEP][PASSED] - while (x <= 5): null
+
+2022-11-30 13:03:15 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 13:03:15 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:03:15 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 13:03:15 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:03:15 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 13:03:15 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:03:15 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 13:03:15 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:03:15 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 13:03:15 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:03:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:03:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Drive_excel/Drive_excel" time="42.472" classname="Test Cases/Drive_excel/Drive_excel" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:03:16 - [TEST_CASE][PASSED] - Test Cases/Drive_excel/Drive_excel: Test Cases/Drive_excel/Drive_excel
+
+2022-11-30 13:03:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:03:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:03:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:03:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:03:18 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-11-30 13:03:50 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-11-30 13:03:50 - [TEST_STEP][PASSED] - waitForPageLoad(40): Wait for page load successfully
+
+2022-11-30 13:03:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 13:03:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 13:03:51 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 13:03:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName"), nombre): Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2022-11-30 13:03:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2022-11-30 13:03:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName"), apellido): Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2022-11-30 13:03:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2022-11-30 13:03:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail"), email): Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 13:03:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 13:03:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-11-30 13:03:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-11-30 13:03:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:03:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navegador/Navegador" time="45.933" classname="Test Cases/Navegador/Navegador" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:03:58 - [TEST_CASE][PASSED] - Test Cases/Navegador/Navegador: Test Cases/Navegador/Navegador
+
+2022-11-30 13:03:58 - [TEST_STEP][PASSED] - openBrowser("https://demoqa.com/text-box"): Browser is opened with url: 'https://demoqa.com/text-box'
+
+2022-11-30 13:03:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:03:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:04:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoqa.com/text-box'
+
+2022-11-30 13:04:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 13:04:43 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 13:04:43 - [TEST_STEP][PASSED] - page_url = getUrl(): Current window's url is: 'https://demoqa.com/text-box'
+
+2022-11-30 13:04:43 - [MESSAGE][PASSED] - Current window's url is: 'https://demoqa.com/text-box'
+
+2022-11-30 13:04:43 - [TEST_STEP][PASSED] - print(page_url): null
+
+2022-11-30 13:04:43 - [TEST_STEP][PASSED] - Titulo = getWindowTitle(): Current window's title is: 'ToolsQA'
+
+2022-11-30 13:04:43 - [MESSAGE][PASSED] - Current window's title is: 'ToolsQA'
+
+2022-11-30 13:04:43 - [TEST_STEP][PASSED] - print("titiulo de la pagina" + Titulo): null
+
+2022-11-30 13:04:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:04:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Objecto_xpath/Caso_xpath" time="76.931" classname="Test Cases/Objecto_xpath/Caso_xpath" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:04:44 - [TEST_CASE][PASSED] - Test Cases/Objecto_xpath/Caso_xpath: Test Cases/Objecto_xpath/Caso_xpath
+
+2022-11-30 13:04:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:04:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:04:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:04:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:04:46 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:05:55 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:05:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 13:05:55 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 13:05:55 - [TEST_STEP][PASSED] - setText(findTestObject("Objeto_xpath/Campo_nombre"), "Ljubo"): Text 'Ljubo' is set on object 'Object Repository/Objeto_xpath/Campo_nombre'
+
+2022-11-30 13:05:57 - [MESSAGE][PASSED] - Text 'Ljubo' is set on object 'Object Repository/Objeto_xpath/Campo_nombre'
+
+2022-11-30 13:05:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-30 13:06:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-30 13:06:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:06:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Condicionar_titulo" time="45.14" classname="Test Cases/Condicionales_If/Condicionar_titulo" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:06:01 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Condicionar_titulo: Test Cases/Condicionales_If/Condicionar_titulo
+
+2022-11-30 13:06:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:06:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:06:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:06:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:06:02 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 13:06:29 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 13:06:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 13:06:29 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 13:06:29 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 13:06:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 13:06:29 - [TEST_STEP][PASSED] - Existe = waitForElementVisible(findTestObject("Condicionales/Texto_radio"), 3): Web element with id: 'Object Repository/Condicionales/Texto_radio' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 13:06:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='main-header'][contains(.,'Radio Button')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 13:06:33 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Condicionales/Texto_radio'. Try using Self-healing.
+
+2022-11-30 13:06:34 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-11-30 13:06:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 13:06:35 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-11-30 13:06:35 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Condicionales/Texto_radio' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 13:06:35 - [TEST_STEP][PASSED] - print(Existe): null
+
+2022-11-30 13:06:35 - [TEST_STEP][PASSED] - if (Existe == true): null
+
+2022-11-30 13:06:35 - [TEST_STEP][PASSED] - else: Browser is closed
+
+2022-11-30 13:06:35 - [TEST_STEP][PASSED] - print("-----  Error no esta el elemento de texto radio ------"): null
+
+2022-11-30 13:06:35 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/radio-button"): Navigate to 'https://demoqa.com/radio-button' successfully
+
+2022-11-30 13:06:42 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/radio-button' successfully
+
+2022-11-30 13:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Condicionales/Objeto_yes")): Object: 'Object Repository/Condicionales/Objeto_yes' is clicked on
+
+2022-11-30 13:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Condicionales/Objeto_yes' is clicked on
+
+2022-11-30 13:06:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-11-30 13:06:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-11-30 13:06:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:06:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_1" time="0.053" classname="Test Cases/Condicionales_If/Test_1" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:06:46 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_1: Test Cases/Condicionales_If/Test_1
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - print("El numero no es un 10 es el numero:  " + num + "#####"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_2" time="0.037" classname="Test Cases/Condicionales_If/Test_2" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:06:46 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_2: Test Cases/Condicionales_If/Test_2
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - if (num == 5): null
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - if (num == 10): null
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - println("El valor de la variables es un: 10"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_3" time="0.027" classname="Test Cases/Condicionales_If/Test_3" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:06:46 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_3: Test Cases/Condicionales_If/Test_3
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - if (nombre == "Juan"): null
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - if (nombre == "JUan"): null
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - if (nombre == "juan"): null
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - println("Tu nombre es juan"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_4" time="0.059" classname="Test Cases/Condicionales_If/Test_4" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:06:46 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_4: Test Cases/Condicionales_If/Test_4
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - if (num <= 7): null
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - println("El numero es menor ó igual que 5"): null
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - if (num >= 8): null
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - if (num != 5): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_edad" time="0.039" classname="Test Cases/Condicionales_If/Test_edad" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:06:46 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_edad: Test Cases/Condicionales_If/Test_edad
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - if (edad >= 1 && edad <= 17): null
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - else if (edad == 18): null
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - else if (edad <= 0): null
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - else if (edad == 120): null
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - else: null
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - print("No se cumple ninguna de las opciones"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Condicionales_If/Test_valor" time="33.038" classname="Test Cases/Condicionales_If/Test_valor" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:06:46 - [TEST_CASE][PASSED] - Test Cases/Condicionales_If/Test_valor: Test Cases/Condicionales_If/Test_valor
+
+2022-11-30 13:06:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:06:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:06:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:06:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:06:48 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 13:07:10 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-11-30 13:07:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 13:07:10 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 13:07:10 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2022-11-30 13:07:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 13:07:10 - [TEST_STEP][PASSED] - Existe = waitForElementVisible(findTestObject("Condicionales/titulo1"), 5): Web element with id: 'Object Repository/Condicionales/titulo1' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 13:07:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='main-header'][contains(.,'Radio Button')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 13:07:17 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Condicionales/titulo1'. Try using Self-healing.
+
+2022-11-30 13:07:18 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-11-30 13:07:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-30 13:07:19 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-11-30 13:07:19 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Condicionales/titulo1' located by '//div[@class='main-header'][contains(.,'Radio Button')]' not found
+
+2022-11-30 13:07:19 - [TEST_STEP][PASSED] - if (Existe == true): null
+
+2022-11-30 13:07:19 - [TEST_STEP][PASSED] - else: Browser is closed
+
+2022-11-30 13:07:19 - [TEST_STEP][PASSED] - print("No estas en la página correcta"): null
+
+2022-11-30 13:07:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:07:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Reto_For" time="119.832" classname="Test Cases/BUCLES/Reto_For" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:07:20 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_For: Test Cases/BUCLES/Reto_For
+
+2022-11-30 13:07:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:07:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:07:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:07:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:07:21 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:08:59 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:08:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 13:08:59 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 13:08:59 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 13:08:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 13:08:59 - [TEST_STEP][PASSED] - for ([x = 1, x <= 4, (x++)]): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 13:08:59 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 13:08:59 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 13:08:59 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 13:08:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Carlos' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 13:09:02 - [MESSAGE][PASSED] - Text 'Carlos' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 13:09:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Carlos@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 13:09:04 - [MESSAGE][PASSED] - Text 'Carlos@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 13:09:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 13:09:04 - [MESSAGE][PASSED] - Text 'Dirección#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 13:09:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 13:09:05 - [MESSAGE][PASSED] - Text 'Dirección dos#1' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 13:09:05 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 13:09:05 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 13:09:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 13:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 13:09:06 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 13:09:06 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 13:09:06 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 13:09:06 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 13:09:06 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 13:09:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Erika' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 13:09:07 - [MESSAGE][PASSED] - Text 'Erika' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 13:09:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Erika@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 13:09:08 - [MESSAGE][PASSED] - Text 'Erika@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 13:09:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 13:09:09 - [MESSAGE][PASSED] - Text 'Dirección#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 13:09:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 13:09:10 - [MESSAGE][PASSED] - Text 'Dirección dos#2' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 13:09:10 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 13:09:10 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 13:09:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 13:09:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 13:09:10 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 13:09:10 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 13:09:10 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 13:09:10 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 13:09:10 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 13:09:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 13:09:11 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 13:09:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 13:09:12 - [MESSAGE][PASSED] - Text 'Juan@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 13:09:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 13:09:13 - [MESSAGE][PASSED] - Text 'Dirección#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 13:09:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 13:09:14 - [MESSAGE][PASSED] - Text 'Dirección dos#3' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 13:09:14 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 13:09:14 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 13:09:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 13:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 13:09:14 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 13:09:14 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 13:09:14 - [TEST_STEP][PASSED] - z = ["Carlos", "Erika", "Paco", "Rodrigo", "Juan"]: null
+
+2022-11-30 13:09:14 - [TEST_STEP][PASSED] - rn = new java.util.Random(): null
+
+2022-11-30 13:09:15 - [TEST_STEP][PASSED] - tx_nombre = z[rn.nextInt(size)]: null
+
+2022-11-30 13:09:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName"), tx_nombre): Text 'Carlos' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 13:09:15 - [MESSAGE][PASSED] - Text 'Carlos' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'
+
+2022-11-30 13:09:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail"), tx_nombre + "@gmail.com"): Text 'Carlos@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 13:09:16 - [MESSAGE][PASSED] - Text 'Carlos@gmail.com' is set on object 'Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 13:09:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress"), "Dirección#" + x): Text 'Dirección#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 13:09:17 - [MESSAGE][PASSED] - Text 'Dirección#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-11-30 13:09:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Dirección dos#" + x): Text 'Dirección dos#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 13:09:18 - [MESSAGE][PASSED] - Text 'Dirección dos#4' is set on object 'Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-11-30 13:09:18 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 13:09:18 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2022-11-30 13:09:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_for/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 13:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_for/Page_ToolsQA/button_Submit' is clicked on
+
+2022-11-30 13:09:19 - [TEST_STEP][PASSED] - scrollToPosition(0, 100): Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 13:09:19 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 100
+
+2022-11-30 13:09:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:09:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Reto_while" time="16.36" classname="Test Cases/BUCLES/Reto_while" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:09:19 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_while: Test Cases/BUCLES/Reto_while
+
+2022-11-30 13:09:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:09:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:09:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:09:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:09:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 13:09:25 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 13:09:25 - [TEST_STEP][PASSED] - Bandera = 0: null
+
+2022-11-30 13:09:25 - [TEST_STEP][PASSED] - while (Bandera != 1): null
+
+2022-11-30 13:09:25 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 13:09:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/While_google/Page_Google/input__q"), "5+" + num): Text '5+3' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 13:09:25 - [MESSAGE][PASSED] - Text '5+3' is set on object 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 13:09:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/While_google/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 13:09:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/While_google/Page_Google/input__q'
+
+2022-11-30 13:09:34 - [TEST_STEP][PASSED] - Resultado = getText(findTestObject("While_google/Extras/Resultado_10")): Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '8'
+
+2022-11-30 13:09:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/While_google/Extras/Resultado_10' is: '8'
+
+2022-11-30 13:09:35 - [TEST_STEP][PASSED] - if (Resultado == "8"): Browser is closed
+
+2022-11-30 13:09:35 - [TEST_STEP][PASSED] - Bandera = 1: null
+
+2022-11-30 13:09:35 - [TEST_STEP][PASSED] - print("Listo termina"): null
+
+2022-11-30 13:09:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:09:36 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-30 13:09:36 - [TEST_STEP][PASSED] - print(Bandera + "------"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Reto_while_solucion" time="31.968" classname="Test Cases/BUCLES/Reto_while_solucion" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:09:36 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Reto_while_solucion: Test Cases/BUCLES/Reto_while_solucion
+
+2022-11-30 13:09:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:09:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:09:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:09:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:09:37 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 13:09:39 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-11-30 13:09:39 - [TEST_STEP][PASSED] - Res = 0: null
+
+2022-11-30 13:09:39 - [TEST_STEP][PASSED] - while (Res != 8): Browser is closed
+
+2022-11-30 13:09:39 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 13:09:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+1' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:09:40 - [MESSAGE][PASSED] - Text '5+1' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:09:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:09:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:09:50 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '6'
+
+2022-11-30 13:09:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '6'
+
+2022-11-30 13:09:50 - [TEST_STEP][PASSED] - if (Res == 8): null
+
+2022-11-30 13:09:50 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 13:09:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:09:51 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:09:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:09:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:09:57 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '9'
+
+2022-11-30 13:09:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '9'
+
+2022-11-30 13:09:58 - [TEST_STEP][PASSED] - if (Res == 8): null
+
+2022-11-30 13:09:58 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 13:09:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+4' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:09:59 - [MESSAGE][PASSED] - Text '5+4' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:09:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:10:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:10:03 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '9'
+
+2022-11-30 13:10:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '9'
+
+2022-11-30 13:10:03 - [TEST_STEP][PASSED] - if (Res == 8): null
+
+2022-11-30 13:10:03 - [TEST_STEP][PASSED] - num = Math.random() * 5 - 1 + 1: null
+
+2022-11-30 13:10:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), "5+" + num): Text '5+3' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:10:04 - [MESSAGE][PASSED] - Text '5+3' is set on object 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:10:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Reto_while1/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:10:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Reto_while1/Page_Google/input__q'
+
+2022-11-30 13:10:06 - [TEST_STEP][PASSED] - Res = getText(findTestObject("Reto_while1/Resultado_8")).toInteger(): Text of object 'Object Repository/Reto_while1/Resultado_8' is: '8'
+
+2022-11-30 13:10:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_while1/Resultado_8' is: '8'
+
+2022-11-30 13:10:07 - [TEST_STEP][PASSED] - if (Res == 8): Browser is closed
+
+2022-11-30 13:10:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:10:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_1" time="165.304" classname="Test Cases/BUCLES/Test_1" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:10:08 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_1: Test Cases/BUCLES/Test_1
+
+2022-11-30 13:10:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:10:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:10:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:10:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:10:09 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:11:38 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:11:38 - [TEST_STEP][PASSED] - for ([x = 1, x <= 2, (x++)]): null
+
+2022-11-30 13:11:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:11:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-30 13:11:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:11:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:11:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:11:41 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:12:11 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:12:11 - [TEST_STEP][PASSED] - RN = Math.random() * 10 - 1 + 1: null
+
+2022-11-30 13:12:11 - [TEST_STEP][PASSED] - print("Numero : " + RN + "----"): null
+
+2022-11-30 13:12:11 - [TEST_STEP][PASSED] - z = ["Demo1", "Demo2", "Demo3", "Demo4", "Demo5"]: null
+
+2022-11-30 13:12:11 - [TEST_STEP][PASSED] - rnd = new java.util.Random(): null
+
+2022-11-30 13:12:11 - [TEST_STEP][PASSED] - texto = z[rnd.nextInt(size)]: null
+
+2022-11-30 13:12:11 - [TEST_STEP][PASSED] - print(texto): null
+
+2022-11-30 13:12:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:12:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-30 13:12:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:12:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:12:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:12:13 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:12:52 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:12:52 - [TEST_STEP][PASSED] - RN = Math.random() * 10 - 1 + 1: null
+
+2022-11-30 13:12:52 - [TEST_STEP][PASSED] - print("Numero : " + RN + "----"): null
+
+2022-11-30 13:12:52 - [TEST_STEP][PASSED] - z = ["Demo1", "Demo2", "Demo3", "Demo4", "Demo5"]: null
+
+2022-11-30 13:12:52 - [TEST_STEP][PASSED] - rnd = new java.util.Random(): null
+
+2022-11-30 13:12:52 - [TEST_STEP][PASSED] - texto = z[rnd.nextInt(size)]: null
+
+2022-11-30 13:12:52 - [TEST_STEP][PASSED] - print(texto): null
+
+2022-11-30 13:12:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:12:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_2" time="23.067" classname="Test Cases/BUCLES/Test_2" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:12:53 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_2: Test Cases/BUCLES/Test_2
+
+2022-11-30 13:12:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:12:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:12:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:12:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:12:55 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:13:15 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:13:15 - [TEST_STEP][PASSED] - for ([x = 1, x <= 10, x = x + 2]): null
+
+2022-11-30 13:13:15 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 13:13:15 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 13:13:15 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 13:13:15 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 13:13:15 - [TEST_STEP][PASSED] - print(" hola mundo " + x + "-------"): null
+
+2022-11-30 13:13:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:13:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_while" time="26.817" classname="Test Cases/BUCLES/Test_while" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:13:16 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_while: Test Cases/BUCLES/Test_while
+
+2022-11-30 13:13:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:13:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:13:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:13:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:13:18 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:13:42 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:13:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 13:13:42 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 13:13:42 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 13:13:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 13:13:42 - [TEST_STEP][PASSED] - x = 1: null
+
+2022-11-30 13:13:42 - [TEST_STEP][PASSED] - while (x <= 3): null
+
+2022-11-30 13:13:42 - [TEST_STEP][PASSED] - print("Hola " + x + "----------"): null
+
+2022-11-30 13:13:42 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:13:42 - [TEST_STEP][PASSED] - print("Hola " + x + "----------"): null
+
+2022-11-30 13:13:42 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:13:42 - [TEST_STEP][PASSED] - print("Hola " + x + "----------"): null
+
+2022-11-30 13:13:42 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:13:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:13:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BUCLES/Test_while2" time="17.508" classname="Test Cases/BUCLES/Test_while2" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:13:43 - [TEST_CASE][PASSED] - Test Cases/BUCLES/Test_while2: Test Cases/BUCLES/Test_while2
+
+2022-11-30 13:13:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:13:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:13:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:13:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:13:44 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:14:00 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-11-30 13:14:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 13:14:00 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 13:14:00 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-11-30 13:14:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 13:14:00 - [TEST_STEP][PASSED] - x = 1: null
+
+2022-11-30 13:14:00 - [TEST_STEP][PASSED] - while (x <= 5): null
+
+2022-11-30 13:14:00 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 13:14:00 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:14:00 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 13:14:00 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:14:00 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 13:14:00 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:14:00 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 13:14:00 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:14:00 - [TEST_STEP][PASSED] - print("Valor de X" + x + "------>"): null
+
+2022-11-30 13:14:00 - [TEST_STEP][PASSED] - (x++): null
+
+2022-11-30 13:14:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:14:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Drive_excel/Drive_excel" time="23.017" classname="Test Cases/Drive_excel/Drive_excel" status="PASSED">
+         <system-out><![CDATA[2022-11-30 13:14:00 - [TEST_CASE][PASSED] - Test Cases/Drive_excel/Drive_excel: Test Cases/Drive_excel/Drive_excel
+
+2022-11-30 13:14:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-30 13:14:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-30 13:14:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-30 13:14:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-30 13:14:02 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-11-30 13:14:17 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-11-30 13:14:17 - [TEST_STEP][PASSED] - waitForPageLoad(40): Wait for page load successfully
+
+2022-11-30 13:14:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-11-30 13:14:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-30 13:14:17 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-30 13:14:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName"), nombre): Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2022-11-30 13:14:19 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_firstName'
+
+2022-11-30 13:14:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName"), apellido): Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2022-11-30 13:14:20 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Name_lastName'
+
+2022-11-30 13:14:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail"), email): Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 13:14:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Drive_excel/Page_ToolsQA/input_Email_userEmail'
+
+2022-11-30 13:14:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-11-30 13:14:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-11-30 13:14:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-30 13:14:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-30 12:42:12 - [TEST_SUITE][PASSED] - testCLoud: Test Cases/Drive_excel/Drive_excel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
